@@ -1,0 +1,103 @@
+CAMISARIA ESPORTIVA FC — COMO PUBLICAR O SITE
+==============================================
+
+Você tem duas coisas separadas, e é bom não confundir:
+
+    O PROJETO   C:\Projetos\compreibaratofc-python
+                É aqui que você trabalha. Fotos do fornecedor, banco,
+                planilha de preços, páginas do site.
+
+    O SITE      camisariaesportiva.com.br, no Hostgator
+                É a cópia publicada. Só muda quando você sobe arquivo.
+
+A pasta web/ é a fonte das páginas. A pasta publicar/ é o site montado.
+A pasta pacotes/ são os .zip prontos pra subir. As duas últimas são
+descartáveis: pode apagar quando quiser, o publicar.py refaz.
+
+
+TODA VEZ QUE VOCÊ QUISER ATUALIZAR O SITE
+------------------------------------------
+No terminal do VS Code, dentro da pasta do projeto:
+
+    1)   python build.py tudo
+         Refaz o banco e o catalogo.json a partir das fotos e da planilha.
+         Olhe o que ele imprime: se disser "0 em destaque", a planilha
+         está desatualizada — veja o item PLANILHA mais abaixo.
+
+    2)   python publicar.py
+         Monta a pasta publicar/ e os .zip da pasta pacotes/.
+         No fim ele diz quantos MB deu e o que fazer.
+
+    3)   Suba no Hostgator (as etapas estão logo abaixo).
+
+Só isso. Não precisa mexer em HTML pra nada.
+
+
+SUBINDO NO HOSTGATOR
+--------------------
+cPanel > Gerenciador de Arquivos > public_html
+
+    1) Upload do  1-site.zip  → clique com o botão direito nele → Extract
+       Isso atualiza TODAS as páginas de uma vez. É rápido (~1 MB).
+
+    2) Upload de cada  2-fotos-N.zip  → Extract, um por vez.
+       Pode fazer em dias diferentes. O site funciona no meio do caminho:
+       a foto que ainda não subiu simplesmente aparece em branco.
+
+    3) Apague os .zip do servidor depois de extrair.
+
+    4) Abra o site e dê Ctrl + Shift + R (força o navegador a esquecer a
+       versão antiga).
+
+Na PRIMEIRA vez, as fotos são todas. Nas próximas, só as novas — o
+publicar.py só copia o que mudou, então os pacotes ficam pequenos.
+
+
+A PLANILHA MANDA NO PREÇO
+-------------------------
+O preço, o destaque ("Raridade" no site) e o que fica fora do ar saem do
+planilha-precos.csv, NÃO do banco. O banco é refeito a cada build; a
+planilha é o único lugar com trabalho seu, então é ela a fonte.
+
+Depois de mexer no Google Sheets:
+    Arquivo > Fazer download > CSV
+    salve por cima de  planilha-precos.csv
+    rode  python build.py  de novo
+
+Se você marcar SIM na coluna "destaque" e não fizer isso, o site não fica
+sabendo. Foi o que aconteceu com as 20 raras que marcamos: elas estão na
+planilha e não estavam no site.
+
+
+QUANTAS FOTOS VÃO PRO SITE
+---------------------------
+Lá em cima do publicar.py tem:
+
+    FOTOS_POR_PECA = 2
+
+Duas por peça: a da frente (que aparece no card) e a segunda, que costuma
+ser as costas — o colecionador quer ver as costas. Dá ~5.100 arquivos,
+~165 MB.
+
+    = 1   fica ~83 MB, mas some a lupa com a segunda foto
+    = 3   fica ~215 MB
+
+O resto das fotos continua guardado no seu PC, em site/fotos/, pra você
+mandar no WhatsApp quando o cliente pedir.
+
+
+O QUE CADA ARQUIVO NOVO FAZ
+---------------------------
+publicar.py            monta a pasta publicar/ e os .zip
+scripts/paginas.py     gera as 342 páginas (uma por time) e o sitemap
+web/index.html         a home
+web/catalogo.html      o acervo com filtro e busca
+web/nav.js             o menu do topo, usado por todas as páginas
+web/pagina.css         o visual das páginas geradas
+
+NÃO EDITE:
+    publicar/dados.js       é gerado
+    publicar/acervo.json    é gerado
+    publicar/camisa-*.html  são geradas
+Mexer nelas não adianta: some na próxima publicação. O que se edita é o
+que está em web/ (ou me chame que eu mexo).

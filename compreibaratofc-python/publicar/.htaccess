@@ -1,0 +1,62 @@
+# php -- BEGIN cPanel-generated handler, do not edit
+# Este domínio herda o pacote “PHP”.
+# php -- END cPanel-generated handler, do not edit
+#
+# O bloco acima é do cPanel. Ele não faz nada sozinho — é um marcador que o
+# painel do Hostgator usa pra saber qual versão do PHP o domínio segue. Está
+# aqui de propósito: se sumir, o seletor de PHP do painel se perde.
+# Daqui pra baixo é o que o site precisa.
+
+# 1. Comprime texto antes de mandar. O acervo.json cai de ~400 KB para ~40 KB.
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml \
+      application/javascript application/json image/svg+xml
+</IfModule>
+
+# 2. Manda o navegador guardar o que não muda. Quem volta não baixa de novo.
+#
+#    As FOTOS do acervo são .webp e nunca mudam de conteúdo: quando a peça
+#    muda, muda o nome do arquivo. Essas podem ficar um ano guardadas.
+#
+#    O LOGO e os ÍCONES são .png, .jpg e .ico, e esses PODEM mudar sem trocar
+#    de nome — foi exatamente o que aconteceu quando a marca foi refeita: o
+#    navegador continuou mostrando o emblema velho porque tinha guardado por
+#    um ano. Uma semana é o suficiente pra economizar banda sem prender uma
+#    troca de identidade.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/webp        "access plus 1 year"
+  ExpiresByType image/jpeg        "access plus 1 week"
+  ExpiresByType image/png         "access plus 1 week"
+  ExpiresByType image/x-icon      "access plus 1 week"
+  ExpiresByType text/css          "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType application/json  "access plus 1 hour"
+  ExpiresByType text/html         "access plus 1 hour"
+</IfModule>
+
+# 3. Endereço único: sempre https e sempre sem www, pra o Google não achar
+#    que existem quatro sites iguais.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+</IfModule>
+
+# 4. Endereço que não existe cai na home em vez de numa página de erro do
+#    Hostgator. O site do CompreiBaratoFC tinha links que sumiram; assim
+#    ninguém bate numa parede.
+#
+#    Só que isso vale pra PÁGINA. Uma foto que falta devolvia a home inteira
+#    (22 KB de HTML no lugar de uma imagem), o que é desperdício e confunde o
+#    navegador. As duas linhas abaixo mandam foto que não existe responder
+#    seca, sem página de erro.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^fotos/.+\.(webp|jpg|jpeg|png)$ - [R=404,L]
+</IfModule>
+
+ErrorDocument 404 /index.html

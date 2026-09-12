@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<meta name="theme-color" content="#151310">
+<title>Camisas Raras e de Coleção | Retrô, Seleções e Clubes | Camisaria Esportiva FC</title>
+<meta name="description" content="Camisas de time baratas: seleções, clubes, retrô e kit infantil. Versão jogador e torcedor. Envio para todo o Brasil, pedido pelo WhatsApp.">
+<meta name="google-site-verification" content="hnFr6Nmt5likf9uc_vH0Ed6_yons4RSvp4HF3SV_XzY">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="canonical" href="https://camisariaesportiva.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Camisaria Esportiva FC">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Camisaria Esportiva FC | Camisas raras, retrô e de coleção">
+<meta property="og:description" content="Retrô, seleções, clubes pouco vistos e edições que sumiram do mercado. Uma peça de cada, escolhida a dedo.">
+<meta property="og:url" content="https://camisariaesportiva.com.br/">
+<meta property="og:image" content="https://camisariaesportiva.com.br/capa-camisaria-esportiva.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#fbfaf7; --panel:#f4f1ea; --linha:#e4ded2;
+    --ink:#151310; --dim:#7c7367; --marca:#151310; --zap:#0f6b36;
+    --ouro:#a9854f; --vinho:#6e2434;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth; background:#fbfaf7; color-scheme:light;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:'Inter', Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .display{font-family:'Playfair Display', Georgia, serif; letter-spacing:.5px;}
+  .limite{max-width:1220px; margin:0 auto; padding:0 18px;}
+
+  /* ---------------------------------------------------------- HERO */
+  .hero{
+    background:#151310; color:#fff;
+    padding:64px 18px 56px; text-align:center; position:relative; overflow:hidden;
+  }
+  .hero::after{
+    content:''; position:absolute; inset:0; opacity:.55; pointer-events:none;
+    background:radial-gradient(circle at 50% 0%,rgba(169,133,79,.22),transparent 62%);
+  }
+  .hero-conteudo{position:relative; z-index:1; max-width:760px; margin:0 auto;}
+  .hero .selo{
+    display:inline-block; background:transparent; color:#c2a06a;
+    border:1px solid rgba(169,133,79,.55); padding:6px 15px; border-radius:2px;
+    font-size:10.5px; font-weight:600; letter-spacing:2.2px; text-transform:uppercase;
+  }
+  .hero h1{
+    font-family:'Playfair Display',Georgia,serif; font-size:clamp(31px,5.4vw,52px);
+    line-height:1.08; font-weight:600; margin:20px 0 14px;
+  }
+  .hero h1 em{font-style:italic; color:#c2a06a;}
+  .hero p{font-size:15.5px; color:#c6bcae; line-height:1.7; max-width:560px; margin:0 auto;}
+  .hero-botoes{display:flex; gap:11px; justify-content:center; flex-wrap:wrap; margin-top:26px;}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px; padding:13px 26px;
+    border-radius:2px; font-size:13.5px; font-weight:700; letter-spacing:.4px;
+    text-decoration:none; border:none; cursor:pointer;
+  }
+  .btn-zap{background:var(--zap); color:#fff;}
+  .btn-linha{background:transparent; color:#e8dfd0; border:1px solid rgba(232,223,208,.4);}
+
+  /* ------------------------------------------------------- PRECOS */
+  .precos{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
+    background:rgba(232,223,208,.18); border:1px solid rgba(232,223,208,.22);
+    border-radius:3px; overflow:hidden; margin:34px auto 0; max-width:600px;
+    position:relative; z-index:1;
+  }
+  .precos div{background:#151310; text-align:center; padding:16px 8px;}
+  .precos .qtd{
+    display:block; font-size:10px; color:#9c9184;
+    text-transform:uppercase; letter-spacing:1.9px; margin-bottom:6px;
+  }
+  .precos .val{font-family:'Playfair Display',Georgia,serif; font-size:26px; color:#f2ece1;}
+  .precos .melhor .val{color:#c2a06a;}
+
+  /* ------------------------------------------------------ SECOES */
+  .secao{padding:46px 0 8px;}
+  .secao-topo{
+    display:flex; align-items:flex-end; justify-content:space-between;
+    gap:14px; margin-bottom:16px; flex-wrap:wrap;
+  }
+  .secao h2{
+    font-family:'Playfair Display',Georgia,serif; font-size:27px; font-weight:600;
+    color:var(--marca); line-height:1.15;
+  }
+  .secao .sub{font-size:13px; color:var(--dim); margin-top:4px;}
+  .link-tudo{
+    font-size:13px; font-weight:700; color:var(--marca);
+    text-decoration:none; white-space:nowrap; border-bottom:1px solid var(--ouro); padding-bottom:3px;
+  }
+
+  /* ------------------------------------------- VITRINE (carrossel) */
+  .vitrine{
+    display:flex; gap:14px; overflow-x:auto; padding:4px 2px 18px;
+    scroll-snap-type:x mandatory; scrollbar-width:thin;
+  }
+  .prod{
+    flex:0 0 auto; width:200px; scroll-snap-align:start;
+    border:1px solid var(--linha); border-radius:3px; overflow:hidden;
+    background:#fff; display:flex; flex-direction:column;
+    text-decoration:none; color:inherit; transition:border-color .15s ease;
+  }
+  .prod:hover{border-color:var(--ouro);}
+  .prod-foto{aspect-ratio:1/1; background:var(--panel); position:relative; overflow:hidden;}
+  .prod-foto img{width:100%; height:100%; object-fit:contain; display:block;}
+  .prod-tag{
+    position:absolute; top:8px; left:8px; background:rgba(21,19,16,.82); color:#e8dfd0;
+    font-size:8.5px; font-weight:600; letter-spacing:1.1px; text-transform:uppercase;
+    padding:4px 8px; border-radius:2px;
+  }
+  .prod-corpo{padding:10px 12px 13px; display:flex; flex-direction:column; gap:4px; flex:1;}
+  .prod-liga{font-size:9px; letter-spacing:1.4px; text-transform:uppercase; color:var(--ouro); font-weight:600;}
+  .prod-nome{font-family:'Playfair Display',Georgia,serif; font-size:16px; font-weight:600; line-height:1.25;}
+  .prod-meta{font-size:11.5px; color:var(--dim);}
+  .prod-preco{margin-top:auto; padding-top:8px; font-size:13px; font-weight:700; color:var(--ink);}
+
+  /* -------------------------------------------------- CATEGORIAS */
+  .tiles{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:12px; padding-bottom:8px;
+  }
+  .tile{
+    border:1px solid var(--linha); border-radius:3px; padding:22px 16px; background:#fff;
+    text-decoration:none; color:var(--marca); background:#fff;
+    display:flex; flex-direction:column; gap:5px; transition:.15s ease;
+  }
+  .tile:hover{border-color:var(--ouro);}
+  .tile .emoji{font-size:22px;}
+  .tile b{font-family:'Playfair Display',Georgia,serif; font-size:18px; font-weight:600; letter-spacing:.1px;}
+  .tile span{font-size:12px; color:var(--dim);}
+
+  /* ----------------------------------------------------- CONFIANCA */
+  .confianca{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:1px;
+    background:var(--linha); border-top:1px solid var(--linha); border-bottom:1px solid var(--linha);
+    margin-top:44px;
+  }
+  .confianca div{background:#fff; padding:20px 16px; text-align:center;}
+  .confianca b{display:block; font-size:13.5px; margin-bottom:3px;}
+  .confianca span{font-size:12px; color:var(--dim);}
+
+  /* --------------------------------------------------------- CTA */
+  .cta{background:var(--panel); text-align:center; padding:48px 18px;}
+  .cta h2{font-family:'Playfair Display',Georgia,serif; font-size:30px; font-weight:600; color:var(--marca);}
+  .cta p{font-size:14px; color:var(--dim); margin:9px auto 22px; max-width:430px; line-height:1.6;}
+
+  /* ------------------------------------------------------ RODAPE */
+  footer{background:#151310; color:#a2988c; padding:40px 18px 26px; font-size:13px;}
+  .rodape-cols{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+    gap:26px; max-width:1220px; margin:0 auto 26px;
+  }
+  .rodape-cols h3{
+    font-size:10.5px; letter-spacing:1.2px; text-transform:uppercase;
+    color:#fff; margin-bottom:11px; font-weight:800;
+  }
+  .rodape-cols a, .rodape-cols p{display:block; color:#a2988c; text-decoration:none; padding:3px 0; line-height:1.5;}
+  .rodape-cols a:hover{color:#fff;}
+  .rodape-fim{
+    text-align:center; border-top:1px solid #2e2820; padding-top:18px;
+    font-size:11.5px; color:#7c7367; max-width:1220px; margin:0 auto;
+  }
+
+  .zap-flutua{
+    position:fixed; bottom:16px; right:16px; z-index:60;
+    background:var(--zap); color:#fff; padding:12px 20px; border-radius:2px;
+    font-size:13px; font-weight:700; text-decoration:none;
+    box-shadow:0 8px 22px rgba(0,0,0,.25); display:flex; align-items:center; gap:7px;
+  }
+  @media(max-width:600px){
+    .precos .val{font-size:21px;}
+    .prod{width:158px;}
+    .zap-flutua{left:50%; right:auto; transform:translateX(-50%);}
+  }
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Camisaria Esportiva FC", "url": "https://camisariaesportiva.com.br/", "inLanguage": "pt-BR", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://camisariaesportiva.com.br/catalogo.html?busca={search_term_string}"}, "query-input": "required name=search_term_string"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Store", "name": "Camisaria Esportiva FC", "url": "https://camisariaesportiva.com.br/", "image": "https://camisariaesportiva.com.br/capa-camisaria-esportiva.jpg", "description": "Camisas raras e de coleção: retrô, seleções, clubes pouco vistos, kit infantil, conjuntos e jaquetas.", "areaServed": {"@type": "Country", "name": "Brasil"}, "priceRange": "R$99 - R$390", "currenciesAccepted": "BRL", "contactPoint": {"@type": "ContactPoint", "contactType": "sales", "telephone": "+551151234079", "availableLanguage": "Portuguese"}}</script>
+</head>
+<body>
+
+<div id="topo"></div>
+
+<section class="hero">
+  <div class="hero-conteudo">
+    <span class="selo">Camisas de coleção</span>
+    <h1>A camisa que<br><em>ninguém mais tem</em></h1>
+    <p>Retrô com nome de jogador, seleções de Copa, clubes que ninguém pede.
+    Cada peça é escolhida uma a uma — não é vitrine de fábrica, é acervo.
+    Você vê no catálogo e fecha direto no WhatsApp.</p>
+    <div class="hero-botoes">
+      <a class="btn btn-zap" href="catalogo.html">Ver o acervo</a>
+      <a class="btn btn-linha" id="hero-zap" href="#" target="_blank">Falar no WhatsApp</a>
+    </div>
+    <div class="precos">
+      <div><span class="qtd">Torcedor</span><span class="val">R$219</span></div>
+      <div><span class="qtd">Jogador</span><span class="val">R$250</span></div>
+      <div class="melhor"><span class="qtd">Retrô</span><span class="val">R$275</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="limite">
+  <section class="secao">
+    <div class="secao-topo">
+      <div>
+        <h2>Raridades da casa</h2>
+        <div class="sub" id="sub-destaque">Fotografadas uma a uma, prontas para consulta.</div>
+      </div>
+      <a class="link-tudo" href="catalogo.html">Ver o acervo completo →</a>
+    </div>
+    <div class="vitrine" id="vitrine-destaque"></div>
+  </section>
+
+  <section class="secao">
+    <div class="secao-topo">
+      <div>
+        <h2>Seleções</h2>
+        <div class="sub">Copa de 2026 e as camisas que marcaram as anteriores.</div>
+      </div>
+      <a class="link-tudo" href="catalogo.html?tipo=selecao">Ver todas →</a>
+    </div>
+    <div class="vitrine" id="vitrine-selecoes"></div>
+  </section>
+
+  <section class="secao">
+    <div class="secao-topo">
+      <div>
+        <h2>Clubes</h2>
+        <div class="sub">Dos gigantes aos que quase ninguém tem: Parma, Palermo, Fiorentina.</div>
+      </div>
+      <a class="link-tudo" href="catalogo.html?tipo=clube">Ver todos →</a>
+    </div>
+    <div class="vitrine" id="vitrine-clubes"></div>
+  </section>
+
+  <section class="secao">
+    <div class="secao-topo"><div><h2>Navegue pelo acervo</h2></div></div>
+    <div class="tiles">
+      <a class="tile" href="camisas-selecoes.html"><span class="emoji">🌎</span><b>Seleções</b><span>58 países</span></a>
+      <a class="tile" href="catalogo.html?liga=Premier League · Inglaterra"><span class="emoji">🦁</span><b>Premier League</b><span>14 clubes</span></a>
+      <a class="tile" href="catalogo.html?liga=La Liga · Espanha"><span class="emoji">🇪🇸</span><b>La Liga</b><span>14 clubes</span></a>
+      <a class="tile" href="catalogo.html?liga=Brasileirão"><span class="emoji">🇧🇷</span><b>Brasileirão</b><span>15 clubes</span></a>
+      <a class="tile" href="camisas-retro.html"><span class="emoji">📼</span><b>Retrô</b><span>Clássicas e comemorativas</span></a>
+      <a class="tile" href="kit-infantil.html"><span class="emoji">🧒</span><b>Kit Infantil</b><span>Camisa + calção</span></a>
+      <a class="tile" href="calcoes-de-time.html"><span class="emoji">🩳</span><b>Calções</b><span>Feche o conjunto</span></a>
+      <a class="tile" href="jaquetas-de-time.html"><span class="emoji">🧥</span><b>Jaquetas</b><span>Corta-vento e treino</span></a>
+      <a class="tile" href="camisas-clubes.html"><span class="emoji">🛡️</span><b>Clubes</b><span>328 times</span></a>
+    </div>
+  </section>
+</div>
+
+<div class="confianca">
+  <div><b>Curadoria peça a peça</b><span>Nada entra no acervo sem passar por mim</span></div>
+  <div><b>Fotografada de verdade</b><span>A foto do site é a peça que existe</span></div>
+  <div><b>Atendimento direto</b><span>Você fala comigo, sem robô e sem cadastro</span></div>
+  <div><b>Envio para todo o Brasil</b><span>Combinado no WhatsApp</span></div>
+</div>
+
+<section class="cta">
+  <h2>Procurando uma camisa específica?</h2>
+  <p>O acervo tem 386 times entre seleções e clubes, e nem tudo que passa por aqui
+  chega a entrar no site. Diga o time, o ano e o uniforme que você procura — se existir,
+  eu acho.</p>
+  <a class="btn btn-zap" id="cta-zap" href="#" target="_blank">Falar comigo no WhatsApp</a>
+</section>
+
+<footer>
+  <div class="rodape-cols">
+    <div>
+      <h3>Navegação</h3>
+      <a href="index.html">Início</a>
+      <a href="catalogo.html">Acervo completo</a>
+      <a href="camisas-selecoes.html">Camisas de seleções</a>
+      <a href="camisas-clubes.html">Camisas de clubes</a>
+      <a href="camisas-retro.html">Camisas de time retrô</a>
+      <a href="kit-infantil.html">Kit infantil de time</a>
+    </div>
+    <div>
+      <h3>Temporadas</h3>
+      <a href="catalogo.html?temporada=26-27">Coleção 26/27</a>
+      <a href="catalogo.html?temporada=25-26">Coleção 25/26</a>
+      <a href="calcoes-de-time.html">Calção de time</a>
+      <a href="jaquetas-de-time.html">Jaqueta de time e agasalho</a>
+    </div>
+    <div>
+      <h3>Como funciona</h3>
+      <p>Escolhe a peça no acervo, toca em "Consultar no WhatsApp" e a conversa já abre com o modelo certo.</p>
+      <p>Pagamento e frete combinados no atendimento.</p>
+    </div>
+    <div>
+      <h3>Contato</h3>
+      <a id="rodape-zap" href="#" target="_blank">WhatsApp (11) 5123-4079</a>
+      <a href="https://www.instagram.com/camisararafc_/" target="_blank" rel="noopener">Instagram @camisararafc_</a>
+      <a href="https://www.facebook.com/camisararafc" target="_blank" rel="noopener">Facebook Camisa Rara FC</a>
+    </div>
+  </div>
+  <div class="rodape-fim">
+    Camisaria Esportiva FC · camisariaesportiva.com.br · Acervo atualizado toda semana<br>
+    Imagens meramente ilustrativas. Marcas e escudos pertencem aos seus respectivos titulares.
+  </div>
+</footer>
+
+<a class="zap-flutua" id="flutua-zap" href="#" target="_blank">
+  <svg width="14" height="14" viewBox="0 0 32 32" fill="#fff"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9A12 12 0 0016 27c6.6 0 12-5.4 12-12S22.6 3 16 3z"/></svg>
+  Falar no WhatsApp
+</a>
+
+<script src="dados.js"></script>
+<script src="nav.js"></script>
+<script>
+  montarTopo('home');
+
+  function linkZap(texto){
+    return `https://wa.me/${WHATSAPP_NUMERO}?text=${encodeURIComponent(texto)}`;
+  }
+  ['hero-zap','cta-zap','rodape-zap','flutua-zap'].forEach(id=>{
+    const e = document.getElementById(id);
+    if(e) e.href = linkZap('Olá! Vi o site da Camisaria Esportiva FC e quero saber mais.');
+  });
+
+  // ============================================================
+  // VITRINES — montadas a partir do FOTOS do dados.js.
+  // A home so mostra peça fotografada: foto nova no dados.js
+  // entra aqui sozinha, sem mexer neste arquivo.
+  // ============================================================
+  // O preço do card sai do tipo da peça. Quando o site passar a ler o
+  // catalogo.json com a planilha junto, isso aqui vira o preço real de cada
+  // peça — por enquanto é a faixa da categoria.
+  function precoDe(i){
+    const p = (i.peca || '').toLowerCase();
+    if(p.includes('retr'))            return 'R$275';
+    if(p.includes('jogador'))         return 'R$250';
+    if(i.genero === 'Infantil')       return 'R$285';
+    if(p.includes('calç') || p.includes('calc')) return 'R$99';
+    if(p.includes('jaqueta'))         return 'R$359';
+    return 'R$219';
+  }
+
+  // "Real Madrid - Masculino - 26/27 - 1º Uniforme Versão Torcedor"
+  //  -> {time, genero, temporada, peca}
+  function lerChave(chave){
+    const p = chave.split(' - ');
+    if(p.length === 4) return {time:p[0], genero:p[1], temporada:p[2], peca:p[3]};
+    if(p.length === 3) return {time:p[0], genero:p[1], temporada:null, peca:p[2]};
+    return null;
+  }
+
+  const porNome = Object.fromEntries(times.map(t=>[t.nome, t]));
+  const itens = Object.entries(FOTOS).map(([chave, foto])=>{
+    const d = lerChave(chave);
+    if(!d) return null;
+    const t = porNome[d.time];
+    if(!t) return null;
+    return {...d, foto, liga:t.liga, selecao:!!t.selecao,
+            href:`catalogo.html?time=${encodeURIComponent(d.time)}`};
+  }).filter(Boolean);
+
+  function cardProduto(i){
+    const rotuloPeca = i.peca.replace(' Versão Torcedor','').replace(' Versão Jogador','');
+    return `
+      <a class="prod" href="${i.href}">
+        <div class="prod-foto">
+          <img src="${i.foto}" alt="${i.time} ${rotuloPeca}" loading="lazy">
+          <span class="prod-tag">${rotuloPeca}</span>
+        </div>
+        <div class="prod-corpo">
+          <span class="prod-liga">${i.liga}</span>
+          <span class="prod-nome">${i.time}</span>
+          <span class="prod-meta">${i.genero}${i.temporada ? ' · ' + i.temporada : ''}</span>
+          <span class="prod-preco">${precoDe(i)}</span>
+        </div>
+      </a>`;
+  }
+
+  function encher(id, lista, vazio){
+    const alvo = document.getElementById(id);
+    if(!alvo) return 0;
+    const secao = alvo.closest('.secao');
+    if(!lista.length){ if(secao) secao.style.display = 'none'; return 0; }
+    alvo.innerHTML = lista.map(cardProduto).join('');
+    return lista.length;
+  }
+
+  const n = encher('vitrine-destaque', itens);
+  encher('vitrine-selecoes', itens.filter(i=>i.selecao));
+  encher('vitrine-clubes',   itens.filter(i=>!i.selecao));
+  const sub = document.getElementById('sub-destaque');
+  if(sub) sub.textContent = `${n} peças fotografadas, prontas para consulta.`;
+</script>
+</body>
+</html>

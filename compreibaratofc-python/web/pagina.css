@@ -1,0 +1,60 @@
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:#faf6ef;color-scheme:light}
+body{font-family:'Inter',Arial,sans-serif;color:#1f1811;-webkit-font-smoothing:antialiased}
+.display{font-family:'Playfair Display',Georgia,serif;font-weight:600;letter-spacing:.1px}
+.limite{max-width:1000px;margin:0 auto;padding:0 18px}
+.capa{background:#2a1c12;color:#fff;padding:52px 18px 44px;position:relative;overflow:hidden}
+.capa::after{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 20% 0%,rgba(169,127,78,.20),transparent 60%)}
+.capa .limite{position:relative;z-index:1}
+.capa .limite{max-width:1000px}
+.trilha{font-size:12px;color:#a89680;margin-bottom:12px}
+.trilha a{color:#a89680;text-decoration:none}
+.trilha a:hover{color:#fff}
+.capa h1{font-family:'Playfair Display',Georgia,serif;font-weight:600;font-size:clamp(28px,5vw,44px);line-height:1.12;margin-bottom:14px}
+.capa p{font-size:14.5px;color:#bdac97;line-height:1.65;max-width:640px}
+.precos{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(236,224,205,.20);border-radius:14px;overflow:hidden;margin-top:22px;max-width:460px}
+.precos div{background:#1f1811;text-align:center;padding:12px 6px}
+.precos .q{display:block;font-size:9.5px;color:#a2917c;text-transform:uppercase;letter-spacing:1.8px;margin-bottom:4px}
+.precos .v{font-family:'Playfair Display',Georgia,serif;font-size:21px;color:#f3ead9}
+main{padding:36px 0 10px}
+main h2{font-family:'Playfair Display',Georgia,serif;font-weight:600;font-size:23px;color:#1f1811;margin:32px 0 11px}
+main h2:first-child{margin-top:0}
+main p{font-size:14.5px;line-height:1.7;color:#443b31;margin-bottom:12px;max-width:760px}
+main ul{margin:0 0 14px 20px}
+main li{font-size:14.5px;line-height:1.75;color:#443b31}
+main a{color:#1f1811}
+.grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:14px;margin:6px 0 8px}
+.item{border:1px solid #e3d9c8;border-radius:14px;overflow:hidden;background:#fff;display:flex;flex-direction:column;text-decoration:none;color:inherit}
+.item .f{aspect-ratio:1/1;background:#f3ece0;overflow:hidden}
+.item .f img{width:100%;height:100%;object-fit:contain;display:block}
+.item .c{padding:11px 12px 12px;display:flex;flex-direction:column;gap:4px;flex:1}
+.item .l{font-size:9px;letter-spacing:1.4px;text-transform:uppercase;color:#a97f4e;font-weight:600}
+.item .n{font-family:'Playfair Display',Georgia,serif;font-size:16px;font-weight:600;line-height:1.25}
+.item .m{font-size:11.5px;color:#7a6d5c}
+.item .p{font-size:15px;font-weight:700;margin-top:6px}
+.item .z{margin-top:auto;display:block;text-align:center;background:#0f6b36;color:#fff;
+  border-radius:10px;padding:8px 6px;font-size:12px;font-weight:700}
+.cta{background:#f3ece0;border-radius:14px;padding:26px 22px;margin:30px 0 8px;text-align:center}
+.cta h2{margin-top:0}
+.btn{display:inline-flex;align-items:center;gap:8px;background:#0f6b36;color:#fff;padding:13px 26px;border-radius:10px;font-size:13.5px;font-weight:700;text-decoration:none;margin-top:6px}
+.atalhos{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 26px}
+.atalhos a{border:1px solid #e3d9c8;border-radius:10px;padding:8px 15px;font-size:13px;color:#1f1811;text-decoration:none}
+.atalhos a:hover{border-color:#a97f4e}
+footer{background:#1f1811;color:#a89680;padding:32px 18px;margin-top:40px;font-size:12.5px;text-align:center;line-height:1.7}
+footer a{color:#c9a675;text-decoration:none}
+
+/* linhas de links entre páginas (times da mesma liga, índice de times) */
+.atalhos-linha{font-size:13.5px;line-height:2.1;color:#7a6d5c;margin-bottom:18px;max-width:none}
+.atalhos-linha a{color:#1f1811;text-decoration:none;border-bottom:1px solid #e3d9c8;padding-bottom:1px}
+.atalhos-linha a:hover{border-bottom-color:#a97f4e}
+.atalhos-linha small{color:#a6998a;font-size:11.5px}
+.grade{margin-bottom:22px}
+.precos:empty{display:none}
+
+@media(max-width:600px){
+  .grade{grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:11px}
+  .limite{padding:0 12px}
+  .item .n{font-size:15px}
+  .item .m{font-size:11px}
+}

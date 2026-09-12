@@ -1,0 +1,156 @@
+# =====================================================================
+# .gitignore — repositório camisaria-esportiva-v1-preservacao
+# RAIZ: C:\Projetos
+#
+# Este repositório preserva a V1 INTEIRA: a pasta
+# compreibaratofc-python/ mais os arquivos soltos da raiz e scripts/.
+#
+# A V2 tem repositório próprio e está excluída aqui embaixo.
+#
+# Os padrões usam **/ porque valem em qualquer profundidade —
+# tanto na raiz quanto dentro de compreibaratofc-python/.
+#
+# ATENÇÃO: este repositório DEVE ser PRIVADO.
+# planilha-precos.csv tem a coluna "custo" (preço de compra).
+# =====================================================================
+
+
+# ==================================================== 0. A V2 NUNCA ENTRA
+# Tem repositório próprio: camisaria-esportiva-v2.
+/camisaria-esportiva-v2/
+
+
+# ============================================== 1. ACERVO DE IMAGENS
+# ~16.000 arquivos, ~3,3 GB. Vai para storage/CDN, nunca para o Git.
+**/fotos_originais/
+
+# Fotos publicadas (~11.000 arq., ~332 MB). Derivadas pelo build.py.
+**/site/fotos/
+**/publicar/fotos/
+
+
+# ================================= 2. CACHES E DERIVADOS DO BUILD
+**/site/.cache-fotos.json
+**/site/fotos-do-banco.js
+**/relatorio-importacao.txt
+
+# Banco SQLite: binário, reconstruído por importar.py.
+# O snapshot textual e diffável é site/catalogo.json, que ENTRA.
+**/dados/*.db
+**/dados/*.db-wal
+**/dados/*.db-shm
+**/*.sqlite
+**/*.sqlite3
+
+
+# ================================ 3. SAÍDA DE PUBLICAÇÃO (publicar/)
+# 342 HTML gerados. Reconstruídos por publicar.py.
+# Exceções: os três arquivos que o Google e o Apache leem.
+**/publicar/*
+!**/publicar/.htaccess
+!**/publicar/robots.txt
+!**/publicar/sitemap.xml
+
+
+# =============================================== 4. PACOTES DE UPLOAD
+**/pacotes/
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+
+# ======================================= 5. FÁBRICA CRIATIVA (IA)
+# Saídas brutas de IA: descartáveis, regeneráveis pelo prompt.
+**/gerados/
+
+# Insumos de geração: imagens pesadas. O mapeamento LISTA.txt fica.
+**/gerar/*
+!**/gerar/LISTA.txt
+
+# Posts renderizados (120 JPG, ~30 MB). As legendas autorais ficam.
+**/posts/*
+!**/posts/LEGENDAS.txt
+
+# Artes de redes sociais: renderizações, não fontes.
+**/arte/redes/
+
+# NOTA: elenco/ NÃO está excluído, e é de propósito.
+# São os 10 modelos IA aprovados (H1-H4, M1-M4, B1, G1), ~340 KB.
+# Regerar produz outras pessoas e quebra os oito banners.
+
+
+# =========================================== 6. PYTHON / AMBIENTE
+**/__pycache__/
+*.py[cod]
+*$py.class
+**/*.egg-info/
+**/.eggs/
+**/build/
+**/dist/
+**/.venv/
+**/venv/
+**/env/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.ipynb_checkpoints/
+
+
+# ================================= 7. NODE (para quando a V2 chegar)
+**/node_modules/
+**/.next/
+**/out/
+**/.turbo/
+**/.vercel/
+
+
+# ============================================ 8. MARCADORES E TEMPS
+*.ok
+*.lock
+*.pid
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+*.log
+**/logs/
+**/tmp/
+**/temp/
+**/.cache/
+
+
+# ================================================ 9. SEGREDOS
+# Auditoria de 12/09: nenhum segredo no código hoje. Isto é preventivo.
+.env
+.env.*
+!.env.example
+**/segredos.py
+**/credenciais.json
+*.pem
+*.key
+*.pfx
+**/ftp.cfg
+.netrc
+
+
+# ======================================= 10. SISTEMA OPERACIONAL / IDE
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.vscode/
+!.vscode/settings.json
+.idea/
+*.code-workspace

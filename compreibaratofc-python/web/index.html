@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<meta name="theme-color" content="#1f1811">
+<title>Camisas Raras e de Coleção | Retrô, Seleções e Clubes | Camisaria Esportiva FC</title>
+<meta name="description" content="Camisas de time baratas: seleções, clubes, retrô e kit infantil. Versão jogador e torcedor. Envio para todo o Brasil, pedido pelo WhatsApp.">
+<meta name="google-site-verification" content="hnFr6Nmt5likf9uc_vH0Ed6_yons4RSvp4HF3SV_XzY">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="canonical" href="https://camisariaesportiva.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Camisaria Esportiva FC">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Camisaria Esportiva FC | Camisas raras, retrô e de coleção">
+<meta property="og:description" content="Retrô, seleções, clubes pouco vistos e edições que sumiram do mercado. Uma peça de cada, escolhida a dedo.">
+<meta property="og:url" content="https://camisariaesportiva.com.br/">
+<meta property="og:image" content="https://camisariaesportiva.com.br/capa-camisaria-esportiva.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#faf6ef; --panel:#f3ece0; --linha:#e3d9c8;
+    --ink:#1f1811; --dim:#7a6d5c; --marca:#1f1811; --zap:#0f6b36;
+    --ouro:#a97f4e; --vinho:#6e2434;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth; background:#faf6ef; color-scheme:light;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:'Inter', Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .display{font-family:'Playfair Display', Georgia, serif; letter-spacing:.5px;}
+  .limite{max-width:1220px; margin:0 auto; padding:0 18px;}
+
+  /* ---------------------------------------------------------- HERO */
+  .hero{
+    background:#2a1c12; color:#fff;
+    padding:64px 18px 56px; text-align:center; position:relative; overflow:hidden;
+  }
+  .hero::after{
+    content:''; position:absolute; inset:0; opacity:.55; pointer-events:none;
+    background:radial-gradient(circle at 50% 0%,rgba(169,127,78,.22),transparent 62%);
+  }
+  .hero-conteudo{position:relative; z-index:1; max-width:760px; margin:0 auto;}
+  .hero .selo{
+    display:inline-block; background:transparent; color:#c9a675;
+    border:1px solid rgba(169,127,78,.55); padding:6px 15px; border-radius:10px;
+    font-size:10.5px; font-weight:600; letter-spacing:2.2px; text-transform:uppercase;
+  }
+  .hero h1{
+    font-family:'Playfair Display',Georgia,serif; font-size:clamp(31px,5.4vw,52px);
+    line-height:1.08; font-weight:600; margin:20px 0 14px;
+  }
+  .hero h1 em{font-style:italic; color:#c9a675;}
+  .hero p{font-size:15.5px; color:#cbbca6; line-height:1.7; max-width:560px; margin:0 auto;}
+  .hero-botoes{display:flex; gap:11px; justify-content:center; flex-wrap:wrap; margin-top:26px;}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px; padding:13px 26px;
+    border-radius:10px; font-size:13.5px; font-weight:700; letter-spacing:.4px;
+    text-decoration:none; border:none; cursor:pointer;
+  }
+  .btn-zap{background:var(--zap); color:#fff;}
+  .btn-linha{background:transparent; color:#ece0cd; border:1px solid rgba(236,224,205,.4);}
+
+  /* ------------------------------------------------------- PRECOS */
+  .precos{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
+    background:rgba(236,224,205,.18); border:1px solid rgba(236,224,205,.22);
+    border-radius:14px; overflow:hidden; margin:34px auto 0; max-width:600px;
+    position:relative; z-index:1;
+  }
+  .precos div{background:#1f1811; text-align:center; padding:16px 8px;}
+  .precos .qtd{
+    display:block; font-size:10px; color:#a2917c;
+    text-transform:uppercase; letter-spacing:1.9px; margin-bottom:6px;
+  }
+  .precos .val{font-family:'Playfair Display',Georgia,serif; font-size:26px; color:#f3ead9;}
+  .precos .melhor .val{color:#c9a675;}
+
+  /* ------------------------------------------------------ SECOES */
+  /* =============================================================
+     PALCO — o banner que roda com as raridades, logo depois do hero
+     =============================================================
+     A identidade da casa é raridade. Então a primeira coisa que se move
+     na página é uma peça rara, não uma promoção. Fundo nogueira, o mesmo
+     do hero, pra ler como continuação e não como um banner colado. */
+  .palco{background:#2a1c12; color:#fff; position:relative;}
+  .palco::after{content:''; position:absolute; inset:0; pointer-events:none;
+    background:radial-gradient(circle at 78% 8%,rgba(169,127,78,.20),transparent 60%);}
+  /* o overflow fica AQUI e não no .palco: no .palco ele é largura total,
+     e o quadro seguinte aparecia espiando na margem da tela grande */
+  .palco-limite{max-width:1180px; margin:0 auto; padding:0;
+    position:relative; z-index:1; overflow:hidden;}
+  .palco-trilho{display:flex; transition:transform .55s cubic-bezier(.4,.05,.2,1);}
+  .palco-quadro{
+    flex:0 0 100%; display:grid; grid-template-columns:1fr; gap:0;
+    align-items:center; padding:22px 16px 26px;
+  }
+  @media(min-width:820px){
+    .palco-quadro{grid-template-columns:minmax(0,420px) 1fr; gap:44px; padding:34px 16px 40px;}
+  }
+  .palco-foto{
+    background:#f3ece0; border-radius:14px; aspect-ratio:1/1; overflow:hidden;
+    max-height:340px; margin:0 auto; width:100%; max-width:340px;
+  }
+  @media(min-width:820px){ .palco-foto{max-height:400px; max-width:none;} }
+  /* ---------------------------------------------- BANNER COM MODELO
+     Quando existe uma foto de cena (modelo vestindo a camisa), o quadro
+     deixa de ser "foto quadrada ao lado do texto" e vira banner de
+     verdade: a foto ocupa tudo e o texto fica POR CIMA, no lado que o
+     prompt deixou livre.
+     No celular não: texto por cima de foto numa tela de 390px não se lê.
+     Lá a foto fica em cima e o texto embaixo, no fundo nogueira. */
+  /* No celular a mesma foto 16:9 fica com 390 de largura e 219 de altura —
+     o modelo vira uma formiga. Como a gente SABE de que lado ele está (o
+     lado oposto ao do texto, e isso vem escrito no manifesto), aqui a
+     imagem é cortada em cima da metade dele. */
+  .com-cena .palco-foto{aspect-ratio:4/3; max-width:none; max-height:none;
+    background:#241810; border-radius:14px 14px 0 0;}
+  .com-cena .palco-foto img{object-fit:cover; object-position:75% center;}
+  .com-cena.texto-direita .palco-foto img{object-position:25% center;}
+  @media(min-width:820px){
+    /* 16:9 exato: o mesmo formato da imagem. Com min-height o navegador
+       esticava a foto pra preencher e decepava a cabeça do modelo. */
+    .com-cena{
+      display:block; position:relative; padding:0; overflow:hidden;
+      border-radius:16px; aspect-ratio:16/9;
+    }
+    .com-cena .palco-texto{
+      display:flex; flex-direction:column; justify-content:center;
+      align-items:flex-start;   /* sem isto o selo dourado estica a linha toda */
+      height:100%;
+    }
+    .com-cena .palco-foto{
+      position:absolute; inset:0; border-radius:0; margin:0;
+      aspect-ratio:auto; width:100%; height:100%;
+    }
+    .com-cena .palco-foto img,
+    .com-cena.texto-direita .palco-foto img{object-position:center;}
+    /* o véu que garante que o texto se lê em cima de qualquer foto —
+       sem ele, camisa branca com fundo claro come as letras */
+    .com-cena::before{
+      content:''; position:absolute; inset:0; z-index:1;
+      background:linear-gradient(90deg,
+        rgba(30,20,13,.94) 0%, rgba(30,20,13,.80) 32%, rgba(30,20,13,0) 64%);
+    }
+    .com-cena.texto-direita::before{
+      background:linear-gradient(270deg,
+        rgba(30,20,13,.94) 0%, rgba(30,20,13,.80) 32%, rgba(30,20,13,0) 64%);
+    }
+    .com-cena .palco-texto{
+      position:relative; z-index:2; max-width:50%; padding:46px 44px;
+      text-align:left;
+    }
+    .com-cena.texto-direita .palco-texto{margin-left:auto;}
+  }
+  .palco-foto img{width:100%; height:100%; object-fit:contain; display:block;}
+  .palco-texto{padding-top:18px; text-align:center;}
+  @media(min-width:820px){ .palco-texto{padding-top:0; text-align:left;} }
+  .palco-selo{
+    display:inline-flex; align-items:center; gap:7px; background:var(--ouro);
+    color:#fff; font-size:9.5px; font-weight:700; letter-spacing:1.7px;
+    text-transform:uppercase; padding:6px 13px; border-radius:999px;
+  }
+  .palco-texto h3{
+    font-family:'Playfair Display',Georgia,serif; font-weight:600;
+    font-size:clamp(28px,5.4vw,44px); line-height:1.08; margin:13px 0 6px;
+  }
+  .palco-meta{font-size:14px; color:#cbbca6; line-height:1.6;}
+  .palco-conta{font-size:12.5px; color:#a89680; margin-top:12px; line-height:1.6;}
+  .palco-preco{font-size:26px; font-weight:800; margin:15px 0 3px; letter-spacing:-.4px;}
+  .palco-botoes{display:flex; gap:10px; flex-wrap:wrap; margin-top:16px; justify-content:center;}
+  @media(min-width:820px){ .palco-botoes{justify-content:flex-start;} }
+
+  .palco-pes{
+    display:flex; align-items:center; justify-content:center; gap:14px;
+    padding:0 0 20px;
+  }
+  .palco-pontos{display:flex; gap:6px; flex-wrap:wrap; justify-content:center; max-width:70vw;}
+  .palco-pontos button{
+    width:7px; height:7px; padding:0; border-radius:999px; cursor:pointer;
+    border:none; background:rgba(236,224,205,.28); transition:background .2s, width .2s;
+  }
+  .palco-pontos button.aqui{background:var(--ouro); width:22px;}
+  .palco-seta{
+    width:38px; height:38px; border-radius:999px; cursor:pointer; flex:0 0 auto;
+    border:1px solid rgba(236,224,205,.28); background:transparent; color:#ece0cd;
+    display:none; align-items:center; justify-content:center; font-size:17px; line-height:1;
+  }
+  @media(min-width:820px){ .palco-seta{display:flex;} }
+  .palco-seta:hover{border-color:var(--ouro); background:rgba(169,127,78,.14);}
+
+  /* a fita de versões que aparece embaixo do preço nos cartões novos */
+  .prod-tem{
+    font-size:9.5px; letter-spacing:1.1px; text-transform:uppercase;
+    color:var(--dim); font-weight:600; line-height:1.5;
+  }
+  .prod-tem b{color:var(--ouro); font-weight:600;}
+  .prod-brilho{
+    position:absolute; top:8px; right:8px; background:#8a2b4d; color:#fff;
+    font-size:8.5px; font-weight:700; letter-spacing:1.1px; text-transform:uppercase;
+    padding:4px 9px; border-radius:999px;
+  }
+
+  .secao{padding:46px 0 8px;}
+  .secao-topo{
+    display:flex; align-items:flex-end; justify-content:space-between;
+    gap:14px; margin-bottom:16px; flex-wrap:wrap;
+  }
+  .secao h2{
+    font-family:'Playfair Display',Georgia,serif; font-size:27px; font-weight:600;
+    color:var(--marca); line-height:1.15;
+  }
+  .secao .sub{font-size:13px; color:var(--dim); margin-top:4px;}
+  .link-tudo{
+    font-size:13px; font-weight:700; color:var(--marca);
+    text-decoration:none; white-space:nowrap; border-bottom:1px solid var(--ouro); padding-bottom:3px;
+  }
+
+  /* ------------------------------------------- VITRINE (carrossel) */
+  .vitrine{
+    display:flex; gap:14px; overflow-x:auto; padding:4px 2px 18px;
+    scroll-snap-type:x mandatory; scrollbar-width:thin;
+  }
+  .prod{
+    flex:0 0 auto; width:200px; scroll-snap-align:start;
+    border:1px solid var(--linha); border-radius:14px; overflow:hidden;
+    background:#fff; display:flex; flex-direction:column;
+    text-decoration:none; color:inherit; transition:border-color .15s ease;
+  }
+  .prod{transition:border-color .18s ease, box-shadow .18s ease, transform .18s ease;}
+  .prod:hover{
+    border-color:var(--ouro);
+    box-shadow:0 10px 26px -14px rgba(31,24,17,.34);
+    transform:translateY(-2px);
+  }
+  @media(hover:none){ .prod:hover{transform:none; box-shadow:none;} }
+  .prod-foto{aspect-ratio:1/1; background:var(--panel); position:relative; overflow:hidden;}
+  .prod-foto img{width:100%; height:100%; object-fit:contain; display:block;}
+  .prod-tag{ border-radius:999px; max-width:calc(100% - 86px);
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+    position:absolute; top:8px; left:8px; background:rgba(31,24,17,.82); color:#ece0cd;
+    font-size:8.5px; font-weight:600; letter-spacing:1.1px; text-transform:uppercase;
+    padding:4px 8px; border-radius:10px;
+  }
+  .prod-corpo{padding:10px 12px 13px; display:flex; flex-direction:column; gap:4px; flex:1;}
+  .prod-liga{font-size:9px; letter-spacing:1.4px; text-transform:uppercase; color:var(--ouro); font-weight:600;}
+  .prod-nome{font-family:'Playfair Display',Georgia,serif; font-size:16px; font-weight:600; line-height:1.25;}
+  .prod-meta{font-size:11.5px; color:var(--dim);}
+  .prod-preco{margin-top:auto; padding-top:8px; font-size:13px; font-weight:700; color:var(--ink);}
+
+  /* -------------------------------------------------- CATEGORIAS */
+  .tiles{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:12px; padding-bottom:8px;
+  }
+  .tile{
+    border:1px solid var(--linha); border-radius:14px; padding:22px 16px; background:#fff;
+    text-decoration:none; color:var(--marca); background:#fff;
+    display:flex; flex-direction:column; gap:5px; transition:.15s ease;
+  }
+  .tile:hover{border-color:var(--ouro);}
+  .tile .emoji{font-size:22px;}
+  .tile b{font-family:'Playfair Display',Georgia,serif; font-size:18px; font-weight:600; letter-spacing:.1px;}
+  .tile span{font-size:12px; color:var(--dim);}
+
+  /* ----------------------------------------------------- CONFIANCA */
+  .confianca{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:1px;
+    background:var(--linha); border-top:1px solid var(--linha); border-bottom:1px solid var(--linha);
+    margin-top:44px;
+  }
+  .confianca div{background:#fff; padding:20px 16px; text-align:center;}
+  .confianca b{display:block; font-size:13.5px; margin-bottom:3px;}
+  .confianca span{font-size:12px; color:var(--dim);}
+
+  /* --------------------------------------------------------- CTA */
+  .cta{background:var(--panel); text-align:center; padding:48px 18px;}
+  .cta h2{font-family:'Playfair Display',Georgia,serif; font-size:30px; font-weight:600; color:var(--marca);}
+  .cta p{font-size:14px; color:var(--dim); margin:9px auto 22px; max-width:430px; line-height:1.6;}
+
+  /* ------------------------------------------------------ RODAPE */
+  footer{background:#1f1811; color:#a89680; padding:40px 18px 26px; font-size:13px;}
+  .rodape-cols{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+    gap:26px; max-width:1220px; margin:0 auto 26px;
+  }
+  .rodape-cols h3{
+    font-size:10.5px; letter-spacing:1.2px; text-transform:uppercase;
+    color:#fff; margin-bottom:11px; font-weight:800;
+  }
+  .rodape-cols a, .rodape-cols p{display:block; color:#a89680; text-decoration:none; padding:3px 0; line-height:1.5;}
+  .rodape-cols a:hover{color:#fff;}
+  .rodape-fim{
+    text-align:center; border-top:1px solid #3a2c1d; padding-top:18px;
+    font-size:11.5px; color:#7a6d5c; max-width:1220px; margin:0 auto;
+  }
+
+  .zap-flutua{
+    position:fixed; bottom:16px; right:16px; z-index:60;
+    background:var(--zap); color:#fff; padding:12px 20px; border-radius:10px;
+    font-size:13px; font-weight:700; text-decoration:none;
+    box-shadow:0 8px 22px rgba(0,0,0,.25); display:flex; align-items:center; gap:7px;
+  }
+  @media(max-width:600px){
+    .precos .val{font-size:21px;}
+    .prod{width:158px;}
+    .zap-flutua{left:50%; right:auto; transform:translateX(-50%);}
+  }
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Camisaria Esportiva FC", "url": "https://camisariaesportiva.com.br/", "inLanguage": "pt-BR", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://camisariaesportiva.com.br/catalogo.html?busca={search_term_string}"}, "query-input": "required name=search_term_string"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Store", "name": "Camisaria Esportiva FC", "url": "https://camisariaesportiva.com.br/", "image": "https://camisariaesportiva.com.br/capa-camisaria-esportiva.jpg", "description": "Camisas raras e de coleção: retrô, seleções, clubes pouco vistos, kit infantil, conjuntos e jaquetas.", "areaServed": {"@type": "Country", "name": "Brasil"}, "priceRange": "R$99 - R$390", "currenciesAccepted": "BRL", "contactPoint": {"@type": "ContactPoint", "contactType": "sales", "telephone": "+551151234079", "availableLanguage": "Portuguese"}}</script>
+</head>
+<body>
+
+<div id="topo"></div>
+
+<section class="hero">
+  <div class="hero-conteudo">
+    <span class="selo">Camisas de coleção</span>
+    <h1>A camisa que<br><em>ninguém mais tem</em></h1>
+    <p>Retrô com nome de jogador, seleções de Copa, clubes que ninguém pede.
+    Cada peça é escolhida uma a uma — não é vitrine de fábrica, é acervo.
+    Você vê no catálogo e fecha direto no WhatsApp.</p>
+    <div class="hero-botoes">
+      <a class="btn btn-zap" href="catalogo.html">Ver o acervo</a>
+      <a class="btn btn-linha" id="hero-zap" href="#" target="_blank">Falar no WhatsApp</a>
+    </div>
+    <div class="precos">
+      <div><span class="qtd">Torcedor</span><span class="val">R$219</span></div>
+      <div><span class="qtd">Jogador</span><span class="val">R$250</span></div>
+      <div class="melhor"><span class="qtd">Retrô</span><span class="val">R$275</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="palco" id="palco" hidden>
+  <div class="palco-limite">
+    <div class="palco-trilho" id="palco-trilho"></div>
+  </div>
+  <div class="palco-pes">
+    <button class="palco-seta" id="palco-ant" aria-label="Anterior">‹</button>
+    <div class="palco-pontos" id="palco-pontos"></div>
+    <button class="palco-seta" id="palco-prox" aria-label="Próxima">›</button>
+  </div>
+</section>
+
+<div class="limite">
+  <section class="secao">
+    <div class="secao-topo">
+      <div>
+        <h2>Raridades da casa</h2>
+        <div class="sub" id="sub-destaque">Fotografadas uma a uma, prontas para consulta.</div>
+      </div>
+      <a class="link-tudo" href="catalogo.html">Ver o acervo completo →</a>
+    </div>
+    <div class="vitrine" id="vitrine-destaque"></div>
+  </section>
+
+  <section class="secao">
+    <div class="secao-topo">
+      <div>
+        <h2>Temporada 26/27</h2>
+        <div class="sub" id="sub-alta">As que estão saindo agora — e em qual versão cada uma existe.</div>
+      </div>
+      <a class="link-tudo" href="catalogo.html?temporada=26-27">Ver a temporada →</a>
+    </div>
+    <div class="vitrine" id="vitrine-alta"></div>
+  </section>
+
+  <section class="secao">
+    <div class="secao-topo">
+      <div>
+        <h2>Copa 2026</h2>
+        <div class="sub">As seleções que vão para o Mundial, e as que ficaram na memória.</div>
+      </div>
+      <a class="link-tudo" href="catalogo.html?colecao=copa-2026">Ver todas →</a>
+    </div>
+    <div class="vitrine" id="vitrine-copa"></div>
+  </section>
+
+  <section class="secao">
+    <div class="secao-topo">
+      <div>
+        <h2>Delas</h2>
+        <div class="sub" id="sub-feminina">Modelagem feminina, mesma temporada, mesmo preço da masculina.</div>
+      </div>
+      <a class="link-tudo" href="catalogo.html?genero=feminino">Ver todas →</a>
+    </div>
+    <div class="vitrine" id="vitrine-feminina"></div>
+  </section>
+
+  <section class="secao">
+    <div class="secao-topo">
+      <div>
+        <h2>Do tamanho deles</h2>
+        <div class="sub" id="sub-infantil">Kit infantil: camisa e calção juntos.</div>
+      </div>
+      <a class="link-tudo" href="kit-infantil.html">Ver todos →</a>
+    </div>
+    <div class="vitrine" id="vitrine-infantil"></div>
+  </section>
+
+  <section class="secao">
+    <div class="secao-topo">
+      <div>
+        <h2>Clubes</h2>
+        <div class="sub">Dos gigantes aos que quase ninguém tem: Parma, Palermo, Fiorentina.</div>
+      </div>
+      <a class="link-tudo" href="catalogo.html?tipo=clube">Ver todos →</a>
+    </div>
+    <div class="vitrine" id="vitrine-clubes"></div>
+  </section>
+
+  <section class="secao">
+    <div class="secao-topo"><div><h2>Navegue pelo acervo</h2></div></div>
+    <div class="tiles">
+      <a class="tile" href="camisas-selecoes.html"><span class="emoji">🌎</span><b>Seleções</b><span>58 países</span></a>
+      <a class="tile" href="catalogo.html?liga=Premier League · Inglaterra"><span class="emoji">🦁</span><b>Premier League</b><span>14 clubes</span></a>
+      <a class="tile" href="catalogo.html?liga=La Liga · Espanha"><span class="emoji">🇪🇸</span><b>La Liga</b><span>14 clubes</span></a>
+      <a class="tile" href="catalogo.html?liga=Brasileirão"><span class="emoji">🇧🇷</span><b>Brasileirão</b><span>15 clubes</span></a>
+      <a class="tile" href="camisas-retro.html"><span class="emoji">📼</span><b>Retrô</b><span>Clássicas e comemorativas</span></a>
+      <a class="tile" href="kit-infantil.html"><span class="emoji">🧒</span><b>Kit Infantil</b><span>Camisa + calção</span></a>
+      <a class="tile" href="calcoes-de-time.html"><span class="emoji">🩳</span><b>Calções</b><span>Feche o conjunto</span></a>
+      <a class="tile" href="jaquetas-de-time.html"><span class="emoji">🧥</span><b>Jaquetas</b><span>Corta-vento e treino</span></a>
+      <a class="tile" href="camisas-clubes.html"><span class="emoji">🛡️</span><b>Clubes</b><span>328 times</span></a>
+    </div>
+  </section>
+</div>
+
+<div class="confianca">
+  <div><b>Curadoria peça a peça</b><span>Nada entra no acervo sem passar por mim</span></div>
+  <div><b>Fotografada de verdade</b><span>A foto do site é a peça que existe</span></div>
+  <div><b>Atendimento direto</b><span>Você fala comigo, sem robô e sem cadastro</span></div>
+  <div><b>Envio para todo o Brasil</b><span>Combinado no WhatsApp</span></div>
+</div>
+
+<section class="cta">
+  <h2>Procurando uma camisa específica?</h2>
+  <p>O acervo tem 386 times entre seleções e clubes, e nem tudo que passa por aqui
+  chega a entrar no site. Diga o time, o ano e o uniforme que você procura — se existir,
+  eu acho.</p>
+  <a class="btn btn-zap" id="cta-zap" href="#" target="_blank">Falar comigo no WhatsApp</a>
+</section>
+
+<footer>
+  <div class="rodape-cols">
+    <div>
+      <h3>Navegação</h3>
+      <a href="index.html">Início</a>
+      <a href="catalogo.html">Acervo completo</a>
+      <a href="camisas-selecoes.html">Camisas de seleções</a>
+      <a href="camisas-clubes.html">Camisas de clubes</a>
+      <a href="camisas-retro.html">Camisas de time retrô</a>
+      <a href="kit-infantil.html">Kit infantil de time</a>
+    </div>
+    <div>
+      <h3>Temporadas</h3>
+      <a href="catalogo.html?temporada=26-27">Coleção 26/27</a>
+      <a href="catalogo.html?temporada=25-26">Coleção 25/26</a>
+      <a href="calcoes-de-time.html">Calção de time</a>
+      <a href="jaquetas-de-time.html">Jaqueta de time e agasalho</a>
+    </div>
+    <div>
+      <h3>Como funciona</h3>
+      <p>Escolhe a peça no acervo, toca em "Consultar no WhatsApp" e a conversa já abre com o modelo certo.</p>
+      <p>Pagamento e frete combinados no atendimento.</p>
+    </div>
+    <div>
+      <h3>Contato</h3>
+      <a id="rodape-zap" href="#" target="_blank">WhatsApp (11) 5123-4079</a>
+      <a href="https://www.instagram.com/camisariaesportivafc/" target="_blank" rel="noopener">Instagram @camisariaesportivafc</a>
+      <a href="https://www.facebook.com/camisariaesportivafc" target="_blank" rel="noopener">Facebook Camisaria Esportiva FC</a>
+    </div>
+  </div>
+  <div class="rodape-fim">
+    Camisaria Esportiva FC · camisariaesportiva.com.br · Acervo atualizado toda semana<br>
+    Imagens meramente ilustrativas. Marcas e escudos pertencem aos seus respectivos titulares.
+  </div>
+</footer>
+
+<a class="zap-flutua" id="flutua-zap" href="#" target="_blank">
+  <svg width="14" height="14" viewBox="0 0 32 32" fill="#fff"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9A12 12 0 0016 27c6.6 0 12-5.4 12-12S22.6 3 16 3z"/></svg>
+  Falar no WhatsApp
+</a>
+
+<script src="dados.js"></script>
+<script src="nav.js"></script>
+<script>
+  montarTopo('home');
+
+  function linkZap(texto){
+    return `https://wa.me/${WHATSAPP_NUMERO}?text=${encodeURIComponent(texto)}`;
+  }
+  ['hero-zap','cta-zap','rodape-zap','flutua-zap'].forEach(id=>{
+    const e = document.getElementById(id);
+    if(e) e.href = linkZap('Olá! Vi o site da Camisaria Esportiva FC e quero saber mais.');
+  });
+
+  // ============================================================
+  // VITRINES — vêm do acervo.json, o mesmo arquivo do catálogo.
+  // Peça nova entra aqui sozinha na próxima publicação; nada de produto
+  // está escrito dentro desta página.
+  // ============================================================
+  const NOME_GENERO = {masculino:'Masculino', feminino:'Feminino', infantil:'Infantil'};
+
+  function descricao(p){
+    const t = p.temporada && p.temporada !== 'retro' ? p.temporada.replace('-','/') : '';
+    return [p.rotulo, t, NOME_GENERO[p.genero]].filter(Boolean).join(' · ');
+  }
+
+  // A etiqueta do canto da foto. "1º Uniforme Versão Torcedor" ocupava a
+  // largura inteira do cartão e batia no selo da cor. O que interessa ali
+  // é o uniforme — a versão já está escrita embaixo.
+  function etiqueta(p){
+    return (p.rotulo || '').split(' · ')[0]
+      .replace(/\s*Vers[ãa]o (Torcedor|Jogador)/i, '')
+      .replace(/\s*Kit Infantil/i, '')
+      .replace(/Linha de Treino/i, 'Treino')
+      .trim() || p.temporada.replace('-','/');
+  }
+
+  const foto1 = p => p.nfotos ? `fotos/${p.foto}-1.webp` : `fotos/${p.foto}`;
+  const dinheiro = v => 'R$ ' + Number(v).toLocaleString('pt-BR');
+
+  // O link leva pro time JÁ na temporada certa, não pra uma busca solta.
+  // Clicar numa 26/27 e cair no acervo inteiro do time era perder a pessoa.
+  function linkPeca(p){
+    const q = new URLSearchParams({time: p.time});
+    if(p.temporada && p.temporada !== 'retro') q.set('temporada', p.temporada);
+    return 'catalogo.html?' + q;
+  }
+
+  function cardProduto(p){
+    const tem = p._tem || '';
+    return `
+      <a class="prod" href="${linkPeca(p)}">
+        <div class="prod-foto">
+          <img src="${foto1(p)}" alt="${p.time} ${descricao(p)}" loading="lazy"
+               onerror="this.style.visibility='hidden'">
+          <span class="prod-tag">${etiqueta(p)}</span>
+          ${p._brilho ? `<span class="prod-brilho">${p._brilho}</span>` : ''}
+        </div>
+        <div class="prod-corpo">
+          <span class="prod-liga">${p.liga}</span>
+          <span class="prod-nome">${p.time}</span>
+          <span class="prod-meta">${descricao(p)}</span>
+          ${tem ? `<span class="prod-tem">${tem}</span>` : ''}
+          <span class="prod-preco">${dinheiro(p.preco)}</span>
+        </div>
+      </a>`;
+  }
+
+  function encher(id, lista){
+    const alvo = document.getElementById(id);
+    if(!alvo) return 0;
+    const secao = alvo.closest('.secao');
+    if(!lista.length){ if(secao) secao.style.display = 'none'; return 0; }
+    alvo.innerHTML = lista.map(cardProduto).join('');
+    return lista.length;
+  }
+
+  // Um por time, pra a vitrine não virar cinco Real Madrid seguidos.
+  function umPorTime(lista, quantos){
+    const vistos = new Set(), fora = [];
+    for(const p of lista){
+      if(vistos.has(p.time)) continue;
+      vistos.add(p.time); fora.push(p);
+      if(fora.length >= quantos) break;
+    }
+    return fora;
+  }
+
+  // =============================================================
+  // O PALCO — o banner que roda com as raridades
+  // =============================================================
+  // Ele não é um carrossel de promoção. É a vitrine da casa: a primeira
+  // coisa que se move na página é uma peça que ninguém mais tem.
+  //
+  // Regras que eu segui de propósito:
+  //   - anda sozinho a cada 7 segundos, mas PARA quando o mouse está em
+  //     cima ou quando a aba está no fundo (senão gasta bateria à toa)
+  //   - obedece "reduzir movimento" do sistema: quem marcou isso no
+  //     celular vê o primeiro quadro parado e troca no dedo
+  //   - arrasta com o dedo no celular
+  //   - se só houver uma peça, some com as setas e os pontinhos
+  function montarPalco(pecas, whatsapp){
+    const palco = document.getElementById('palco');
+    if(!palco || !pecas.length) return;
+    const trilho = document.getElementById('palco-trilho');
+    const pontos = document.getElementById('palco-pontos');
+
+    trilho.innerHTML = pecas.map(p=>{
+      const texto = `Olá! Vi esta peça no site da Camisaria Esportiva FC:\n\n`
+        + `${p.time} — ${descricao(p)}\n${dinheiro(p.preco)}\n\nAinda tem?`;
+      const zap = `https://wa.me/${whatsapp}?text=${encodeURIComponent(texto)}`;
+      const cena = !!p._banner;
+      const lado = p._lado === 'direita' ? ' texto-direita' : '';
+      return `<article class="palco-quadro${cena ? ' com-cena' + lado : ''}">
+        <div class="palco-foto">
+          <img src="${p._banner || foto1(p)}" alt="${p.time} ${descricao(p)}"
+               loading="lazy" onerror="this.style.visibility='hidden'">
+        </div>
+        <div class="palco-texto">
+          <span class="palco-selo">${p.destaque ? 'Raridade da casa' : 'Peça de acervo'}</span>
+          <h3>${p.time}</h3>
+          <div class="palco-meta">${descricao(p)}</div>
+          <div class="palco-conta">${frase(p)}</div>
+          <div class="palco-preco">${dinheiro(p.preco)}</div>
+          <div class="palco-botoes">
+            <a class="btn btn-zap" href="${zap}" target="_blank" rel="noopener">Perguntar por ela</a>
+            <a class="btn btn-linha" href="${linkPeca(p)}">Ver no acervo</a>
+          </div>
+        </div>
+      </article>`;
+    }).join('');
+
+    const um = pecas.length < 2;
+    pontos.innerHTML = um ? '' : pecas.map((_,i)=>
+      `<button data-vai="${i}" class="${i?'':'aqui'}" aria-label="Peça ${i+1}"></button>`).join('');
+    document.getElementById('palco-ant').style.display = um ? 'none' : '';
+    document.getElementById('palco-prox').style.display = um ? 'none' : '';
+    palco.hidden = false;
+
+    let aqui = 0, relogio = null;
+    const parado = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function ir(i){
+      aqui = (i + pecas.length) % pecas.length;
+      trilho.style.transform = `translateX(-${aqui * 100}%)`;
+      pontos.querySelectorAll('button').forEach((b,k)=>
+        b.classList.toggle('aqui', k === aqui));
+    }
+    function anda(){ if(!um && !parado) relogio = setInterval(()=>ir(aqui+1), 7000); }
+    function para(){ clearInterval(relogio); relogio = null; }
+    function reinicia(){ para(); anda(); }
+
+    document.getElementById('palco-ant').onclick  = ()=>{ ir(aqui-1); reinicia(); };
+    document.getElementById('palco-prox').onclick = ()=>{ ir(aqui+1); reinicia(); };
+    pontos.addEventListener('click', e=>{
+      const b = e.target.closest('[data-vai]');
+      if(b){ ir(+b.dataset.vai); reinicia(); }
+    });
+    palco.addEventListener('mouseenter', para);
+    palco.addEventListener('mouseleave', anda);
+    document.addEventListener('visibilitychange', ()=> document.hidden ? para() : anda());
+
+    // arrastar com o dedo
+    let x0 = null;
+    trilho.addEventListener('touchstart', e=>{ x0 = e.touches[0].clientX; para(); }, {passive:true});
+    trilho.addEventListener('touchend', e=>{
+      if(x0 === null) return;
+      const d = e.changedTouches[0].clientX - x0;
+      if(Math.abs(d) > 45) ir(aqui + (d < 0 ? 1 : -1));
+      x0 = null; anda();
+    }, {passive:true});
+
+    anda();
+  }
+
+  // A linha de contexto do palco. Sem inventar história: só o que a
+  // própria peça já diz.
+  function frase(p){
+    if(p.colecoes && p.colecoes.includes('retro'))
+      return 'Retrô. Quando o fornecedor não tem mais, não volta.';
+    if(p.destaque) return 'Escolhida a dedo no meio do acervo.';
+    if(p.temporada === '26-27') return 'Temporada atual, recém-chegada ao acervo.';
+    return 'Fotografada aqui, uma a uma.';
+  }
+
+  fetch('acervo.json').then(r=>r.json()).then(a=>{
+    const c = {}; a.colunas.forEach((n,i)=> c[n]=i);
+    const d = a.dic;
+    const pecas = a.pecas.map(l=>({
+      time:d.time[l[c.time]], liga:d.liga[l[c.liga]], selecao:!!l[c.selecao],
+      genero:d.genero[l[c.genero]], categoria:d.categoria[l[c.categoria]],
+      uniforme:d.uniforme[l[c.uniforme]], versao:d.versao[l[c.versao]],
+      temporada:d.temporada[l[c.temporada]], rotulo:d.rotulo[l[c.rotulo]],
+      preco:l[c.preco], destaque:!!l[c.destaque], cobica:l[c.cobica]||0,
+      chave:l[c.chave],
+      foto:l[c.foto], nfotos:l[c.nfotos],
+      colecoes:l[c.colecoes].map(i=>d.colecao[i])
+    }));
+
+// A temporada vem como "26-27", "98-99" ou "retro". Comparar como texto
+    // punha 98/99 na frente de 26/27 (9 > 2). Aqui vira número de verdade:
+    // dois dígitos acima de 60 são 19xx, o resto é 20xx.
+    function ano(p){
+      const t = p.temporada;
+      if(!t || t === 'retro') return 0;
+      let m = t.match(/^(\d{2})-(\d{2})$/);
+      if(m){ const a = +m[1]; return a >= 60 ? 1900 + a : 2000 + a; }
+      m = t.match(/^(\d{4})$/);
+      return m ? +m[1] : 0;
+    }
+    const novas = [...pecas].sort((x,y)=> ano(y)-ano(x));
+    // A vitrine de raridades: as marcadas por mim na planilha primeiro,
+    // depois as mais procuradas do acervo. Assim ela nunca fica curta.
+    const procuradas = [...pecas].sort((x,y)=> y.cobica-x.cobica);
+    const raras = procuradas.filter(p=>p.destaque)
+                    .concat(procuradas.filter(p=>!p.destaque && p.cobica >= 70));
+    const retro = procuradas.filter(p=>p.colecoes.includes('retro'));
+
+    // Se ninguém marcou destaque na planilha ainda, a vitrine abre com as
+    // retrô — que é o que a marca vende — em vez de ficar vazia.
+    const vitrine = umPorTime(raras.length ? raras : retro, 14);
+    const n = encher('vitrine-destaque', vitrine);
+    encher('vitrine-clubes', umPorTime(procuradas.filter(p=>!p.selecao), 14));
+
+    // =============================================================
+    // AS SEÇÕES NOVAS
+    // =============================================================
+    // A casa é de raridade — isso não muda, e por isso as raridades
+    // abrem a página. Mas quem chega pelo Instagram procurando a camisa
+    // da temporada não pode ter que caçar. Cada seção abaixo é uma porta
+    // diferente pro mesmo acervo.
+
+    // Os times que puxam a temporada. Está aqui em cima, em português
+    // claro, porque é a lista que MUDA — quando o Palmeiras entrar no
+    // acervo, é só escrever o nome nesta linha.
+    const EM_ALTA = ['Real Madrid','FC Barcelona','Paris Saint-Germain','Flamengo',
+      'Manchester United','Bayern de Munique','Inter de Milão','AC Milan','Juventus',
+      'Liverpool','Arsenal','Chelsea','Corinthians','Vasco da Gama','Cruzeiro',
+      'Internacional','Grêmio','Botafogo','Fluminense','Palmeiras','São Paulo','Santos'];
+
+    // As seleções que abrem a vitrine da Copa, na ordem em que o
+    // brasileiro procura.
+    const COPA = ['Brasil','Argentina','Portugal','Espanha','Alemanha','França',
+      'Itália','Inglaterra','Holanda','México','Colômbia','Japão','Uruguai','Croácia'];
+
+    // Peça que chama o olho: cor no nome, colaboração, edição comemorativa.
+    // É o que faz a vitrine parecer viva em vez de um mostruário de
+    // primeiros uniformes todos parecidos.
+    // O terceiro número é o peso: cor pesa mais que edição especial,
+    // porque cor a pessoa reconhece na miniatura e "edição especial"
+    // não quer dizer nada até abrir.
+    const CHAMATIVAS = [
+      [/\brosa\b/i,            'Rosa',           3],
+      [/\bverde\b/i,           'Verde',          3],
+      [/\bpreta\b/i,           'Preta',          3],
+      [/\bbranca\b/i,          'Branca',         3],
+      [/\bazul\b/i,            'Azul',           3],
+      [/louis vuitton/i,       'Louis Vuitton',  2],
+      [/\bdior\b/i,            'Dior',           2],
+      [/karol g/i,             'Karol G',        2],
+      [/centen[aá]rio/i,       'Centenário',     2],
+      [/\d+\s*anos/i,          'Comemorativa',   1],
+      [/final champions/i,     'Final',          1],
+      [/edi[cç][aã]o especial/i,'Edição especial',1],
+    ];
+    function brilho(p){
+      for(const [re, nome] of CHAMATIVAS) if(re.test(p.rotulo || '')) return nome;
+      return '';
+    }
+    function pesoBrilho(p){
+      for(const [re, , peso] of CHAMATIVAS) if(re.test(p.rotulo || '')) return peso;
+      return 0;
+    }
+
+    // Em que versões esta camisa existe. A chave é time + temporada +
+    // uniforme, porque é isso que o cliente entende por "a mesma camisa".
+    const versoesDe = new Map();
+    for(const p of pecas){
+      const k = `${p.time}|${p.temporada}|${p.uniforme}`;
+      if(!versoesDe.has(k)) versoesDe.set(k, new Set());
+      const v = versoesDe.get(k);
+      if(p.genero === 'feminino')  v.add('Feminina');
+      if(p.genero === 'infantil')  v.add('Infantil');
+      if(p.versao === 'jogador')   v.add('Jogador');
+      if(p.categoria === 'kit')    v.add('Infantil');
+    }
+    // "Também em Feminina" num cartão que JÁ é feminino não informa
+    // nada — tira a própria versão da lista antes de escrever.
+    function fitaVersoes(p){
+      const v = versoesDe.get(`${p.time}|${p.temporada}|${p.uniforme}`);
+      if(!v || !v.size) return '';
+      const fora = new Set(v);
+      if(p.genero === 'feminino')  fora.delete('Feminina');
+      if(p.genero === 'infantil' || p.categoria === 'kit') fora.delete('Infantil');
+      if(p.versao === 'jogador')   fora.delete('Jogador');
+      if(!fora.size) return '';
+      return 'Também em <b>' + [...fora].join(' · ') + '</b>';
+    }
+
+    function vestir(lista){
+      for(const p of lista){ p._tem = fitaVersoes(p); p._brilho = brilho(p); }
+      return lista;
+    }
+
+    // Goleiro, treino e pré-jogo ficam de fora das vitrines. São peças
+    // legítimas do acervo, mas a camisa do goleiro reserva não é o que
+    // representa a seleção na primeira tela.
+    const FRACOS = ['goleiro','treino','pre-jogo','aquecimento'];
+    const deVitrine = p => p.categoria === 'camisa' && !FRACOS.includes(p.uniforme);
+
+    // ---------------------------------------------- temporada 26/27
+    // Duas por time no máximo — o Real Madrid sozinho tem 37 peças da
+    // temporada e comeria a vitrine inteira. E UMA por uniforme: sem
+    // isso, as duas vagas do Real Madrid iam as duas pro primeiro
+    // uniforme (a torcedor e a jogador da mesma camisa, lado a lado),
+    // e a rosa do terceiro uniforme — que é a que está bombando —
+    // não aparecia.
+    function espalhar(lista, quantos){
+      const porTime = new Map(), uniformes = new Set(), fora = [];
+      for(const p of lista){
+        const chaveUniforme = `${p.time}|${p.uniforme}`;
+        if(uniformes.has(chaveUniforme)) continue;
+        const q = porTime.get(p.time) || 0;
+        if(q >= 2) continue;
+        uniformes.add(chaveUniforme);
+        porTime.set(p.time, q + 1);
+        fora.push(p);
+        if(fora.length >= quantos) break;
+      }
+      return fora;
+    }
+    const atual = pecas.filter(p =>
+      p.temporada === '26-27' && deVitrine(p) &&
+      p.genero === 'masculino' && EM_ALTA.includes(p.time));
+    // primeiro as que chamam o olho, e entre elas as mais procuradas
+    atual.sort((x,y)=> pesoBrilho(y)-pesoBrilho(x) || y.cobica-x.cobica);
+    encher('vitrine-alta', vestir(espalhar(atual, 16)));
+
+    // ------------------------------------------------------- Copa
+    const copa = pecas.filter(p =>
+      p.selecao && p.temporada === '26-27' && deVitrine(p) &&
+      p.genero === 'masculino');
+    copa.sort((x,y)=>{
+      const a = COPA.indexOf(x.time), b = COPA.indexOf(y.time);
+      return (a < 0 ? 99 : a) - (b < 0 ? 99 : b) || y.cobica - x.cobica;
+    });
+    encher('vitrine-copa', vestir(umPorTime(copa, 16)));
+
+    // --------------------------------------------------- feminina
+    const delas = pecas.filter(p => p.genero === 'feminino' && deVitrine(p))
+                       .sort((x,y)=> y.cobica - x.cobica);
+    encher('vitrine-feminina', vestir(umPorTime(delas, 16)));
+
+    // --------------------------------------------------- infantil
+    const kids = pecas.filter(p => (p.genero === 'infantil' || p.colecoes.includes('kids'))
+                                   && !FRACOS.includes(p.uniforme))
+                      .sort((x,y)=> y.cobica - x.cobica);
+    encher('vitrine-infantil', vestir(umPorTime(kids, 16)));
+
+    // os subtítulos contam o que existe de verdade
+    const diz = (id, txt) => { const e = document.getElementById(id); if(e) e.textContent = txt; };
+    const conta26 = pecas.filter(p=>p.temporada === '26-27').length;
+    diz('sub-alta', `${conta26.toLocaleString('pt-BR')} peças da temporada no acervo. ` +
+      `Cada cartão diz em que versões aquela camisa existe.`);
+    diz('sub-feminina', `${delas.length} peças em modelagem feminina — ` +
+      `mesma temporada e mesmo preço da masculina.`);
+    diz('sub-infantil', `${kids.length} kits: camisa e calção juntos, do tamanho 16 ao 28.`);
+
+    // ------------------------------------------------------ palco
+    // Se existirem fotos de modelo em modelos/ (feitas pelo modelos.py),
+    // o palco usa ELAS: foto de gente vestindo vende o clima, foto de
+    // cabide vende o produto. Enquanto não houver, ele segue com as
+    // fotos reais das raridades — o site nunca fica sem banner.
+    const porChave = new Map(pecas.map(p=>[p.chave, p]));
+    const doBanner = [];
+    for(const [arquivo, info] of Object.entries(a.banners || {})){
+      // o manifesto antigo guardava só a chave; o novo guarda o lado também
+      const chave = typeof info === 'string' ? info : info.chave;
+      const lado  = typeof info === 'string' ? 'esquerda' : (info.lado || 'esquerda');
+      const p = porChave.get(chave);
+      if(!p) continue;
+      doBanner.push(Object.assign({}, p, {_banner: 'modelos/' + arquivo, _lado: lado}));
+    }
+    doBanner.sort((x,y)=> x._banner.localeCompare(y._banner));
+    montarPalco(vestir(doBanner.length ? doBanner : raras.slice(0, 10)), a.whatsapp);
+
+    const sub = document.getElementById('sub-destaque');
+    const marcadas = pecas.filter(p=>p.destaque).length;
+    if(sub) sub.textContent = marcadas
+      ? `${marcadas} peças escolhidas a dedo no meio de ${pecas.length.toLocaleString('pt-BR')}.`
+      : `${pecas.length.toLocaleString('pt-BR')} peças no acervo, cada uma fotografada aqui.`;
+
+    // os números das etiquetas saem do acervo, não ficam escritos na mão
+    const conta = f => pecas.filter(f).length;
+    const times = s => new Set(pecas.filter(s).map(p=>p.time)).size;
+    const põe = (sel, txt) => { const e=document.querySelector(sel); if(e) e.textContent = txt; };
+    põe('a[href="camisas-selecoes.html"] span:last-child', times(p=>p.selecao) + ' seleções');
+    põe('a[href="camisas-clubes.html"] span:last-child',   times(p=>!p.selecao) + ' clubes');
+    põe('a[href="camisas-retro.html"] span:last-child',    conta(p=>p.colecoes.includes('retro')) + ' peças');
+    põe('a[href="kit-infantil.html"] span:last-child',     conta(p=>p.colecoes.includes('kids')) + ' kits');
+    põe('a[href="calcoes-de-time.html"] span:last-child',  conta(p=>p.categoria==='calcao') + ' modelos');
+    põe('a[href="jaquetas-de-time.html"] span:last-child', conta(p=>p.categoria==='jaqueta') + ' modelos');
+
+    const cta = document.querySelector('.cta p');
+    if(cta) cta.innerHTML = `O acervo tem <b>${pecas.length.toLocaleString('pt-BR')} peças</b> de ` +
+      `${new Set(pecas.map(p=>p.time)).size} times, e nem tudo que passa por aqui chega a entrar no site. ` +
+      `Diga o time, o ano e o uniforme que você procura — se existir, eu acho.`;
+  }).catch(err=>{
+    console.error('acervo.json:', err);
+    document.querySelectorAll('.secao').forEach(s=>{
+      if(s.querySelector('.vitrine')) s.style.display='none';
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+CAMISARIA ESPORTIVA FC — LISTA DE GERAÇÃO DE MODELOS
+==============================================================
+
+COMO USAR ESTA PASTA
+  1. Abra a pasta da fase (comece pela 01).
+  2. Cada imagem tem um arquivo .txt do lado, com o mesmo nome.
+  3. Na IA: envie a IMAGEM como referência e cole o PROMPT do .txt.
+  4. Salve o resultado em `gerados/`, começando com o MESMO número.
+     Exemplo: a referência 03-flamengo-....jpg vira 03-qualquer.png
+  5. Quando terminar a fase, rode: python modelos.py padronizar
+
+
+==============================================================
+BANNERS DO TOPO
+==============================================================
+Oito imagens que mudam a primeira tela do site inteiro. É o maior retorno por imagem gerada — comece por aqui.
+
+  [ ] 01-estadio                     H1       Manchester United - Masculino - Retrô 07-08 - Final Champi
+  [ ] 02-rua                         H2       Flamengo - Masculino - 26/27 - 1º Uniforme Versão Torcedor
+  [ ] 03-torcida                     H3       Brasil - Masculino - 26/27 - 1º Uniforme Versão Torcedor -
+  [ ] 04-mulher                      M1       Flamengo - Feminino - 26/27 - 1º Uniforme Versão Torcedor 
+  [ ] 05-crianca                     B1       Real Madrid - Infantil - 26/27 - 1º Uniforme Kit Infantil 
+  [ ] 06-familia                     H4 + M2 + B1 Flamengo - Masculino - 26/27 - 1º Uniforme Versão Torcedor
+  [ ] 07-colecao                     H1 + M3 + G1 Manchester United - Masculino - Retrô 07-08 - Ronaldo Cham
+  [ ] 08-premium                     H2       Manchester United - Masculino - Retrô 07-08 - Manga Longa 
+
+==============================================================
+TEMPORADA 26/27 — AS QUE ESTÃO EM ALTA
+==============================================================
+É onde o modelo importa: quem compra camisa da temporada quer saber como fica no corpo. Quem compra retrô já sabe o que quer.
+
+  [ ] 01-argentina-masculino-26-27-1-uniforme-versao-torcedor-edicao- H1       Argentina - Masculino - 26/27 - 1º Uniforme Versão Torcedo
+  [ ] 02-brasil-masculino-26-27-1-uniforme-versao-torcedor-concept H2       Brasil - Masculino - 26/27 - 1º Uniforme Versão Torcedor -
+  [ ] 03-fc-barcelona-masculino-26-27-1-uniforme-versao-torcedor-edic H3       FC Barcelona - Masculino - 26/27 - 1º Uniforme Versão Torc
+  [ ] 04-flamengo-masculino-26-27-1-uniforme-versao-torcedor-rubro-ne H4       Flamengo - Masculino - 26/27 - 1º Uniforme Versão Torcedor
+  [ ] 05-paris-saint-germain-masculino-26-27-1-uniforme-versao-torced H1       Paris Saint-Germain - Masculino - 26/27 - 1º Uniforme Vers
+  [ ] 06-real-madrid-masculino-26-27-1-uniforme-versao-torcedor-125-a H2       Real Madrid - Masculino - 26/27 - 1º Uniforme Versão Torce
+  [ ] 07-ac-milan-masculino-26-27-1-uniforme-versao-torcedor-slam-jam H3       AC Milan - Masculino - 26/27 - 1º Uniforme Versão Torcedor
+  [ ] 08-alemanha-masculino-26-27-1-uniforme-versao-torcedor-edicao-e H4       Alemanha - Masculino - 26/27 - 1º Uniforme Versão Torcedor
+  [ ] 09-arsenal-masculino-26-27-1-uniforme-versao-torcedor-final-cha H1       Arsenal - Masculino - 26/27 - 1º Uniforme Versão Torcedor 
+  [ ] 10-bayern-de-munique-masculino-26-27-1-uniforme-versao-torcedor H2       Bayern de Munique - Masculino - 26/27 - 1º Uniforme Versão
+  [ ] 11-botafogo-masculino-26-27-1-uniforme-versao-torcedor-preta H3       Botafogo - Masculino - 26/27 - 1º Uniforme Versão Torcedor
+  [ ] 12-corinthians-masculino-26-27-1-uniforme-versao-jogador-edicao H4       Corinthians - Masculino - 26/27 - 1º Uniforme Versão Jogad
+  [ ] 13-cruzeiro-masculino-26-27-1-uniforme-versao-torcedor-brasil H1       Cruzeiro - Masculino - 26/27 - 1º Uniforme Versão Torcedor
+  [ ] 14-fluminense-masculino-26-27-1-uniforme-versao-torcedor-tricol H2       Fluminense - Masculino - 26/27 - 1º Uniforme Versão Torced
+  [ ] 15-franca-masculino-26-27-1-uniforme-versao-torcedor-120-anos H3       França - Masculino - 26/27 - 1º Uniforme Versão Torcedor -
+  [ ] 16-holanda-masculino-26-27-1-uniforme-versao-torcedor-edicao-es H4       Holanda - Masculino - 26/27 - 1º Uniforme Versão Torcedor 
+
+==============================================================
+MODELAGEM FEMININA
+==============================================================
+125 peças no acervo. Sem foto no corpo, a modelagem feminina é invisível — a pessoa não sabe que existe.
+
+  [ ] 01-brasil-feminino-retro-1998  M1       Brasil - Feminino - Retrô 1998
+  [ ] 02-flamengo-feminino-retro-1981 M2       Flamengo - Feminino - Retrô 1981
+  [ ] 03-argentina-feminino-26-27-1-uniforme-versao-torcedor M3       Argentina - Feminino - 26/27 - 1º Uniforme Versão Torcedor
+  [ ] 04-fc-barcelona-feminino-26-27-1-uniforme-versao-torcedor M4       FC Barcelona - Feminino - 26/27 - 1º Uniforme Versão Torce
+  [ ] 05-real-madrid-feminino-26-27-1-uniforme-versao-torcedor M1       Real Madrid - Feminino - 26/27 - 1º Uniforme Versão Torced
+  [ ] 06-cruzeiro-feminino-26-27-1-uniforme-versao-torcedor-edicao-es M2       Cruzeiro - Feminino - 26/27 - 1º Uniforme Versão Torcedor 
+  [ ] 07-internacional-feminino-26-27-1-uniforme-versao-torcedor-edic M3       Internacional - Feminino - 26/27 - 1º Uniforme Versão Torc
+  [ ] 08-portugal-feminino-26-27-1-uniforme-versao-torcedor-aquamarin M4       Portugal - Feminino - 26/27 - 1º Uniforme Versão Torcedor 
+  [ ] 09-alemanha-feminino-26-27-2-uniforme-versao-torcedor M1       Alemanha - Feminino - 26/27 - 2º Uniforme Versão Torcedor
+  [ ] 10-atletico-mineiro-feminino-26-27-2-uniforme-versao-torcedor M2       Atlético Mineiro - Feminino - 26/27 - 2º Uniforme Versão T
+  [ ] 11-bayern-de-munique-feminino-26-27-1-uniforme-versao-torcedor M3       Bayern de Munique - Feminino - 26/27 - 1º Uniforme Versão 
+  [ ] 12-botafogo-feminino-26-27-1-uniforme-versao-torcedor M4       Botafogo - Feminino - 26/27 - 1º Uniforme Versão Torcedor
+
+==============================================================
+KIT INFANTIL
+==============================================================
+Maior valor por pedido do acervo. E a foto no corpo responde a dúvida do tamanho antes de virar mensagem.
+
+  [ ] 01-argentina-infantil-retro-1994-2-uniforme B1       Argentina - Infantil - Retrô 1994 - 2º Uniforme
+  [ ] 02-real-madrid-infantil-26-27-1-uniforme-kit-infantil-louis-vui G1       Real Madrid - Infantil - 26/27 - 1º Uniforme Kit Infantil 
+  [ ] 03-brasil-infantil-26-27-2-uniforme-kit-infantil B1       Brasil - Infantil - 26/27 - 2º Uniforme Kit Infantil
+  [ ] 04-fc-barcelona-infantil-26-27-2-uniforme-kit-infantil G1       FC Barcelona - Infantil - 26/27 - 2º Uniforme Kit Infantil
+  [ ] 05-ac-milan-infantil-26-27-1-uniforme-kit-infantil B1       AC Milan - Infantil - 26/27 - 1º Uniforme Kit Infantil
+  [ ] 06-alemanha-infantil-26-27-1-uniforme-kit-infantil G1       Alemanha - Infantil - 26/27 - 1º Uniforme Kit Infantil
+  [ ] 07-bayern-de-munique-infantil-26-27-1-uniforme-kit-infantil B1       Bayern de Munique - Infantil - 26/27 - 1º Uniforme Kit Inf
+  [ ] 08-cruzeiro-infantil-26-27-1-uniforme-kit-infantil G1       Cruzeiro - Infantil - 26/27 - 1º Uniforme Kit Infantil
+  [ ] 09-franca-infantil-26-27-2-uniforme-kit-infantil B1       França - Infantil - 26/27 - 2º Uniforme Kit Infantil
+  [ ] 10-inglaterra-infantil-26-27-2-uniforme-kit-infantil G1       Inglaterra - Infantil - 26/27 - 2º Uniforme Kit Infantil
+
+==============================================================
+JAQUETAS E CONJUNTOS
+==============================================================
+São as peças de maior preço (R$359 e R$390) e as que menos se entendem numa foto de cabide.
+
+  [ ] 01-brasil-masculino-jaqueta-1998-corta-vento H1       Brasil - Masculino - Jaqueta 1998 - Corta-Vento
+  [ ] 02-alemanha-masculino-jaqueta-1990 H2       Alemanha - Masculino - Jaqueta 1990
+  [ ] 03-franca-masculino-jaqueta-1998 H3       França - Masculino - Jaqueta 1998
+  [ ] 04-holanda-masculino-jaqueta-2010 H4       Holanda - Masculino - Jaqueta 2010
+  [ ] 05-manchester-united-masculino-jaqueta-98-99 H1       Manchester United - Masculino - Jaqueta 98/99
+  [ ] 06-argentina-masculino-26-27-linha-de-treino-conjunto H2       Argentina - Masculino - 26/27 - Linha de Treino Conjunto
+  [ ] 07-real-madrid-masculino-26-27-linha-de-treino-conjunto H3       Real Madrid - Masculino - 26/27 - Linha de Treino Conjunto
+  [ ] 08-portugal-masculino-26-27-1-uniforme-conjunto-completo H4       Portugal - Masculino - 26/27 - 1º Uniforme Conjunto - Comp
+  [ ] 09-brasil-masculino-25-26-linha-de-treino-conjunto H1       Brasil - Masculino - 25/26 - Linha de Treino Conjunto
+
+==============================================================
+TOTAL: 55 imagens para gerar

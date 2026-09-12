@@ -1,0 +1,62 @@
+[
+ {
+  "slug": "copa-2026",
+  "nome": "Copa do Mundo 2026",
+  "descricao": "Camisas e kits das seleções para a Copa de 2026.",
+  "pecas": 811
+ },
+ {
+  "slug": "feminino",
+  "nome": "Feminino",
+  "descricao": "Modelagem feminina de clubes e seleções.",
+  "pecas": 125
+ },
+ {
+  "slug": "kids",
+  "nome": "Kids",
+  "descricao": "Kit infantil: camisa e calção do mesmo uniforme.",
+  "pecas": 208
+ },
+ {
+  "slug": "conjuntos",
+  "nome": "Conjuntos",
+  "descricao": "Camisa e calção juntos, adulto e infantil.",
+  "pecas": 242
+ },
+ {
+  "slug": "agasalhos",
+  "nome": "Agasalhos e Jaquetas",
+  "descricao": "Corta-vento e conjuntos de treino.",
+  "pecas": 55
+ },
+ {
+  "slug": "retro",
+  "nome": "Retrô",
+  "descricao": "Uniformes clássicos de várias épocas.",
+  "pecas": 895
+ },
+ {
+  "slug": "edicoes",
+  "nome": "Edições Especiais",
+  "descricao": "Colaborações, aniversários e edições limitadas.",
+  "pecas": 504
+ },
+ {
+  "slug": "goleiro",
+  "nome": "Goleiro",
+  "descricao": "Uniformes de goleiro.",
+  "pecas": 59
+ },
+ {
+  "slug": "brasileirao",
+  "nome": "Times do Brasil",
+  "descricao": "Clubes do Brasileirão.",
+  "pecas": 243
+ },
+ {
+  "slug": "europa",
+  "nome": "Clubes da Europa",
+  "descricao": "Premier League, La Liga, Serie A, Bundesliga e Ligue 1.",
+  "pecas": 1322
+ }
+]

@@ -1,0 +1,142 @@
+# =====================================================================
+# .gitignore — Camisaria Esportiva FC · V1 · CE-001
+# Versão definitiva. Substitui o .gitignore de 85 bytes de 30/06.
+#
+# REGRA: o Git guarda o que RECONSTRÓI o projeto — código, dados
+# estruturais, documentação e insumos irreproduzíveis. Não guarda
+# nenhum artefato que um script deste mesmo repositório regenere.
+#
+# ATENÇÃO: este repositório DEVE ser PRIVADO.
+# planilha-precos.csv contém a coluna "custo" (preço de compra).
+# =====================================================================
+
+
+# ============================================== 1. ACERVO DE IMAGENS
+# Fonte original do fornecedor: ~16.000 arquivos, ~3,3 GB.
+# Vai para storage/CDN na V2. Nunca para o Git.
+fotos_originais/
+
+# Fotos publicadas do site (~11.000 arquivos, ~332 MB).
+# DERIVADAS de fotos_originais/ pelo build.py.
+site/fotos/
+
+
+# ================================= 2. CACHES E DERIVADOS DO BUILD
+# Cache de hash das fotos: 2,8 MB, reescrito inteiro a cada build.
+site/.cache-fotos.json
+
+# Índice de fotos em JS: 1,2 MB, derivado de site/catalogo.json.
+site/fotos-do-banco.js
+
+# Relatório de importação: 338 KB, regerado pelo importar.py.
+relatorio-importacao.txt
+
+# Banco SQLite: 3,5 MB BINÁRIO, reconstruído por importar.py.
+# Ver seção "Diretórios ambíguos" no GIT_VERSIONING_RULES.md —
+# o snapshot textual e diffável é site/catalogo.json, que ENTRA.
+dados/catalogo.db
+dados/*.db-wal
+dados/*.db-shm
+
+
+# ================================== 3. SAÍDA DE PUBLICAÇÃO (publicar/)
+# 342 HTML gerados + fotos. Tudo reconstruído por publicar.py.
+# Exceções abaixo: os três arquivos de servidor que o Google lê.
+publicar/*
+!publicar/.htaccess
+!publicar/robots.txt
+!publicar/sitemap.xml
+
+
+# =============================================== 4. PACOTES DE UPLOAD
+pacotes/
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+
+# ======================================= 5. FÁBRICA CRIATIVA (IA)
+# Saídas brutas da IA: descartáveis, regeneráveis pelo prompt.
+gerados/
+
+# Insumos de geração: imagens pesadas. O mapeamento LISTA.txt fica.
+gerar/*
+!gerar/LISTA.txt
+
+# Posts renderizados para redes: 120 JPG, ~30 MB.
+# As legendas (conteúdo autoral) ficam.
+posts/*
+!posts/LEGENDAS.txt
+
+# Artes de redes sociais: renderizações, não fontes.
+arte/redes/
+
+
+# =========================================== 6. PYTHON / AMBIENTE
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+
+# ============================================ 7. MARCADORES E TEMPS
+*.ok
+*.lock
+*.pid
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+
+# ================================================ 8. SEGREDOS
+# Nada de credencial de cPanel, FTP ou API no repositório.
+.env
+.env.*
+!.env.example
+segredos.py
+credenciais.json
+*.pem
+*.key
+*.pfx
+ftp.cfg
+.netrc
+
+
+# ======================================= 9. SISTEMA OPERACIONAL / IDE
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.vscode/
+!.vscode/settings.json
+.idea/
+*.code-workspace

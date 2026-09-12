@@ -1,0 +1,90 @@
+COMPREIBARATOFC — PROJETO PYTHON
+================================
+
+O que é: o catálogo da loja virou um banco SQLite mais alguns scripts Python.
+Você importa uma pasta de fotos do fornecedor, o projeto descobre sozinho de que
+time/uniforme/temporada é cada peça, comprime tudo pra ~35KB e gera os arquivos
+que o site consome.
+
+Nada aqui precisa de servidor, de internet ou de conta em lugar nenhum.
+
+
+INSTALAÇÃO (uma vez só)
+-----------------------
+1. Descompacte esta pasta onde quiser. Sugestão: C:\projetos\compreibaratofc
+2. Abra a pasta no VS Code (Arquivo › Abrir pasta)
+3. No terminal do VS Code (Ctrl + '):
+
+       pip install -r requirements.txt
+
+   É só o Pillow. O resto (sqlite3, json, re) já vem com o Python.
+
+4. Confira que está tudo de pé:
+
+       python build.py
+
+   Tem que aparecer "217 times". Se aparecer, acabou a instalação.
+
+
+O DIA A DIA
+-----------
+Chegou uma pasta nova de fotos do fornecedor:
+
+1. Jogue a pasta dentro de fotos_originais/
+   (a pasta que tem as SUBPASTAS dos kits, uma por peça)
+
+2. Rode:
+
+       python build.py fotos_originais/criancas1
+
+3. Olhe o relatorio-importacao.txt: ele lista o que entrou e o que ficou de
+   fora, com o motivo de cada um.
+
+4. Me mande dois arquivos:
+       site/fotos-do-banco.js
+       relatorio-importacao.txt
+   São texto puro, alguns KB. As fotos ficam com você.
+
+5. As fotos otimizadas estão em site/fotos/ — é o que sobe pro GitHub.
+
+
+O QUE CADA COISA FAZ
+--------------------
+build.py              roda tudo na ordem certa
+dados/times.json      a lista mestra dos 217 times (edite aqui pra crescer)
+dados/catalogo.db     o banco (criado sozinho; abra no VS Code com a extensão
+                      "SQLite" se quiser espiar as tabelas)
+fotos_originais/      o que o fornecedor manda (não sobe pro GitHub)
+site/                 a saída: fotos otimizadas e os arquivos de dados
+scripts/banco.py      as tabelas
+scripts/semear.py     times.json -> banco
+scripts/fornecedor.py o MAPA entre o jeito do fornecedor nomear e o nosso
+scripts/imagens.py    a compressão
+scripts/importar.py   pasta do fornecedor -> banco + fotos
+scripts/exportar.py   banco -> arquivos do site
+
+
+ONDE MEXER QUANDO ALGO NOVO CHEGAR
+----------------------------------
+Time novo               dados/times.json
+Família nova de produto scripts/fornecedor.py, lista FAMILIAS
+   (femininas, agasalhos, conjuntos adulto — o prefixo da pasta do fornecedor)
+Nome que ele escreve
+diferente do nosso      scripts/fornecedor.py, dicionário APELIDOS
+Coleção nova no menu    scripts/banco.py, lista COLECOES
+Foto mais leve/pesada   scripts/imagens.py, ALVO_KB
+
+Cada um desses é UMA linha. É de propósito: o projeto foi montado pra crescer
+sem precisar reescrever nada.
+
+
+SE DER ERRO
+-----------
+"No module named PIL"      -> faltou o pip install -r requirements.txt
+"não achei a pasta"        -> o caminho depois do build.py está errado; use o
+                              caminho relativo, tipo fotos_originais/criancas1
+"família desconhecida"     -> o fornecedor mandou um prefixo novo; me avise o
+                              nome exato da pasta que eu acrescento em FAMILIAS
+"time não está no
+ times.json"               -> o time ainda não existe no catálogo; o relatório
+                              lista todos de uma vez pra você decidir

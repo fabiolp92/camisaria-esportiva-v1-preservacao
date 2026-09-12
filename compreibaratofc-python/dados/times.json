@@ -1,0 +1,3862 @@
+[
+  {
+    "nome": "Brasil",
+    "liga": "Seleção · CBF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "brasil",
+    "base": "fotos/selecoes/copa-2026/brasil"
+  },
+  {
+    "nome": "Argentina",
+    "liga": "Seleção · AFA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "argentina",
+    "base": "fotos/selecoes/copa-2026/argentina"
+  },
+  {
+    "nome": "Espanha",
+    "liga": "Seleção · RFEF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "espanha",
+    "base": "fotos/selecoes/copa-2026/espanha"
+  },
+  {
+    "nome": "Alemanha",
+    "liga": "Seleção · DFB",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "alemanha",
+    "base": "fotos/selecoes/copa-2026/alemanha"
+  },
+  {
+    "nome": "Japão",
+    "liga": "Seleção · JFA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "japao",
+    "base": "fotos/selecoes/copa-2026/japao"
+  },
+  {
+    "nome": "França",
+    "liga": "Seleção · FFF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "franca",
+    "base": "fotos/selecoes/copa-2026/franca"
+  },
+  {
+    "nome": "Portugal",
+    "liga": "Seleção · FPF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "portugal",
+    "base": "fotos/selecoes/copa-2026/portugal"
+  },
+  {
+    "nome": "Inglaterra",
+    "liga": "Seleção · FA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "inglaterra",
+    "base": "fotos/selecoes/copa-2026/inglaterra"
+  },
+  {
+    "nome": "Holanda",
+    "liga": "Seleção · KNVB",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "holanda",
+    "base": "fotos/selecoes/copa-2026/holanda"
+  },
+  {
+    "nome": "Bélgica",
+    "liga": "Seleção · URBSFA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "belgica",
+    "base": "fotos/selecoes/copa-2026/belgica"
+  },
+  {
+    "nome": "Croácia",
+    "liga": "Seleção · HNS",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "croacia",
+    "base": "fotos/selecoes/copa-2026/croacia"
+  },
+  {
+    "nome": "Suíça",
+    "liga": "Seleção · ASF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "suica",
+    "base": "fotos/selecoes/copa-2026/suica"
+  },
+  {
+    "nome": "Áustria",
+    "liga": "Seleção · ÖFB",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "austria",
+    "base": "fotos/selecoes/copa-2026/austria"
+  },
+  {
+    "nome": "Escócia",
+    "liga": "Seleção · SFA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "escocia",
+    "base": "fotos/selecoes/copa-2026/escocia"
+  },
+  {
+    "nome": "Noruega",
+    "liga": "Seleção · NFF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "noruega",
+    "base": "fotos/selecoes/copa-2026/noruega"
+  },
+  {
+    "nome": "Suécia",
+    "liga": "Seleção · SvFF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "suecia",
+    "base": "fotos/selecoes/copa-2026/suecia"
+  },
+  {
+    "nome": "Turquia",
+    "liga": "Seleção · TFF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "turquia",
+    "base": "fotos/selecoes/copa-2026/turquia"
+  },
+  {
+    "nome": "Bósnia e Herzegovina",
+    "liga": "Seleção · NFSBiH",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "bosnia-e-herzegovina",
+    "base": "fotos/selecoes/copa-2026/bosnia-e-herzegovina"
+  },
+  {
+    "nome": "Chéquia",
+    "liga": "Seleção · FAČR",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "chequia",
+    "base": "fotos/selecoes/copa-2026/chequia"
+  },
+  {
+    "nome": "Marrocos",
+    "liga": "Seleção · FRMF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "marrocos",
+    "base": "fotos/selecoes/copa-2026/marrocos"
+  },
+  {
+    "nome": "Senegal",
+    "liga": "Seleção · FSF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "senegal",
+    "base": "fotos/selecoes/copa-2026/senegal"
+  },
+  {
+    "nome": "Gana",
+    "liga": "Seleção · GFA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "gana",
+    "base": "fotos/selecoes/copa-2026/gana"
+  },
+  {
+    "nome": "Egito",
+    "liga": "Seleção · EFA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "egito",
+    "base": "fotos/selecoes/copa-2026/egito"
+  },
+  {
+    "nome": "Argélia",
+    "liga": "Seleção · FAF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "argelia",
+    "base": "fotos/selecoes/copa-2026/argelia"
+  },
+  {
+    "nome": "Tunísia",
+    "liga": "Seleção · FTF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "tunisia",
+    "base": "fotos/selecoes/copa-2026/tunisia"
+  },
+  {
+    "nome": "África do Sul",
+    "liga": "Seleção · SAFA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "africa-do-sul",
+    "base": "fotos/selecoes/copa-2026/africa-do-sul"
+  },
+  {
+    "nome": "Costa do Marfim",
+    "liga": "Seleção · FIF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "costa-do-marfim",
+    "base": "fotos/selecoes/copa-2026/costa-do-marfim"
+  },
+  {
+    "nome": "Cabo Verde",
+    "liga": "Seleção · FCF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "cabo-verde",
+    "base": "fotos/selecoes/copa-2026/cabo-verde"
+  },
+  {
+    "nome": "RD Congo",
+    "liga": "Seleção · FECOFA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "rd-congo",
+    "base": "fotos/selecoes/copa-2026/rd-congo"
+  },
+  {
+    "nome": "Coreia do Sul",
+    "liga": "Seleção · KFA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "coreia-do-sul",
+    "base": "fotos/selecoes/copa-2026/coreia-do-sul"
+  },
+  {
+    "nome": "Austrália",
+    "liga": "Seleção · FA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "australia",
+    "base": "fotos/selecoes/copa-2026/australia"
+  },
+  {
+    "nome": "Irã",
+    "liga": "Seleção · FFIRI",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "ira",
+    "base": "fotos/selecoes/copa-2026/ira"
+  },
+  {
+    "nome": "Arábia Saudita",
+    "liga": "Seleção · SAFF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "arabia-saudita",
+    "base": "fotos/selecoes/copa-2026/arabia-saudita"
+  },
+  {
+    "nome": "Catar",
+    "liga": "Seleção · QFA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "catar",
+    "base": "fotos/selecoes/copa-2026/catar"
+  },
+  {
+    "nome": "Jordânia",
+    "liga": "Seleção · JFA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "jordania",
+    "base": "fotos/selecoes/copa-2026/jordania"
+  },
+  {
+    "nome": "Uzbequistão",
+    "liga": "Seleção · UFF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "uzbequistao",
+    "base": "fotos/selecoes/copa-2026/uzbequistao"
+  },
+  {
+    "nome": "Iraque",
+    "liga": "Seleção · IFA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "iraque",
+    "base": "fotos/selecoes/copa-2026/iraque"
+  },
+  {
+    "nome": "Uruguai",
+    "liga": "Seleção · AUF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "uruguai",
+    "base": "fotos/selecoes/copa-2026/uruguai"
+  },
+  {
+    "nome": "Colômbia",
+    "liga": "Seleção · FCF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "colombia",
+    "base": "fotos/selecoes/copa-2026/colombia"
+  },
+  {
+    "nome": "Equador",
+    "liga": "Seleção · FEF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "equador",
+    "base": "fotos/selecoes/copa-2026/equador"
+  },
+  {
+    "nome": "Paraguai",
+    "liga": "Seleção · APF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "paraguai",
+    "base": "fotos/selecoes/copa-2026/paraguai"
+  },
+  {
+    "nome": "Estados Unidos",
+    "liga": "Seleção · USSF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "estados-unidos",
+    "base": "fotos/selecoes/copa-2026/estados-unidos"
+  },
+  {
+    "nome": "México",
+    "liga": "Seleção · FMF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "mexico",
+    "base": "fotos/selecoes/copa-2026/mexico"
+  },
+  {
+    "nome": "Canadá",
+    "liga": "Seleção · CSA",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "canada",
+    "base": "fotos/selecoes/copa-2026/canada"
+  },
+  {
+    "nome": "Curaçao",
+    "liga": "Seleção · FFK",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "curacao",
+    "base": "fotos/selecoes/copa-2026/curacao"
+  },
+  {
+    "nome": "Haiti",
+    "liga": "Seleção · FHF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "haiti",
+    "base": "fotos/selecoes/copa-2026/haiti"
+  },
+  {
+    "nome": "Panamá",
+    "liga": "Seleção · FEPAFUT",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "panama",
+    "base": "fotos/selecoes/copa-2026/panama"
+  },
+  {
+    "nome": "Nova Zelândia",
+    "liga": "Seleção · NZF",
+    "raiz": "selecoes",
+    "grupo": "Copa 2026",
+    "grupo_slug": "copa-2026",
+    "liga_slug": null,
+    "slug": "nova-zelandia",
+    "base": "fotos/selecoes/copa-2026/nova-zelandia"
+  },
+  {
+    "nome": "Itália",
+    "liga": "Seleção · FIGC",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "italia",
+    "base": "fotos/selecoes/classicas-fora/italia"
+  },
+  {
+    "nome": "Chile",
+    "liga": "Seleção · ANFP",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "chile",
+    "base": "fotos/selecoes/classicas-fora/chile"
+  },
+  {
+    "nome": "Nigéria",
+    "liga": "Seleção · NFF",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "nigeria",
+    "base": "fotos/selecoes/classicas-fora/nigeria"
+  },
+  {
+    "nome": "Camarões",
+    "liga": "Seleção · FECAFOOT",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "camaroes",
+    "base": "fotos/selecoes/classicas-fora/camaroes"
+  },
+  {
+    "nome": "Sérvia",
+    "liga": "Seleção · FSS",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "servia",
+    "base": "fotos/selecoes/classicas-fora/servia"
+  },
+  {
+    "nome": "Costa Rica",
+    "liga": "Seleção · FCRF",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "costa-rica",
+    "base": "fotos/selecoes/classicas-fora/costa-rica"
+  },
+  {
+    "nome": "Peru",
+    "liga": "Seleção · FPF",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "peru",
+    "base": "fotos/selecoes/classicas-fora/peru"
+  },
+  {
+    "nome": "Polônia",
+    "liga": "Seleção · PZPN",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "polonia",
+    "base": "fotos/selecoes/classicas-fora/polonia"
+  },
+  {
+    "nome": "Dinamarca",
+    "liga": "Seleção · DBU",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "dinamarca",
+    "base": "fotos/selecoes/classicas-fora/dinamarca"
+  },
+  {
+    "nome": "Ucrânia",
+    "liga": "Seleção · UAF",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "ucrania",
+    "base": "fotos/selecoes/classicas-fora/ucrania"
+  },
+  {
+    "nome": "Real Madrid",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "real-madrid",
+    "base": "fotos/clubes/europa/la-liga/real-madrid"
+  },
+  {
+    "nome": "FC Barcelona",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "fc-barcelona",
+    "base": "fotos/clubes/europa/la-liga/fc-barcelona"
+  },
+  {
+    "nome": "Atlético de Madrid",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "atletico-de-madrid",
+    "base": "fotos/clubes/europa/la-liga/atletico-de-madrid"
+  },
+  {
+    "nome": "Athletic Bilbao",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "athletic-bilbao",
+    "base": "fotos/clubes/europa/la-liga/athletic-bilbao"
+  },
+  {
+    "nome": "Real Sociedad",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "real-sociedad",
+    "base": "fotos/clubes/europa/la-liga/real-sociedad"
+  },
+  {
+    "nome": "Sevilla",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "sevilla",
+    "base": "fotos/clubes/europa/la-liga/sevilla"
+  },
+  {
+    "nome": "Valencia",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "valencia",
+    "base": "fotos/clubes/europa/la-liga/valencia"
+  },
+  {
+    "nome": "Real Betis",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "real-betis",
+    "base": "fotos/clubes/europa/la-liga/real-betis"
+  },
+  {
+    "nome": "Villarreal",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "villarreal",
+    "base": "fotos/clubes/europa/la-liga/villarreal"
+  },
+  {
+    "nome": "Celta de Vigo",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "celta-de-vigo",
+    "base": "fotos/clubes/europa/la-liga/celta-de-vigo"
+  },
+  {
+    "nome": "Espanyol",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "espanyol",
+    "base": "fotos/clubes/europa/la-liga/espanyol"
+  },
+  {
+    "nome": "Osasuna",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "osasuna",
+    "base": "fotos/clubes/europa/la-liga/osasuna"
+  },
+  {
+    "nome": "Deportivo La Coruña",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "deportivo-la-coruna",
+    "base": "fotos/clubes/europa/la-liga/deportivo-la-coruna"
+  },
+  {
+    "nome": "Real Zaragoza",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "real-zaragoza",
+    "base": "fotos/clubes/europa/la-liga/real-zaragoza"
+  },
+  {
+    "nome": "Manchester United",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "manchester-united",
+    "base": "fotos/clubes/europa/premier-league/manchester-united"
+  },
+  {
+    "nome": "Manchester City",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "manchester-city",
+    "base": "fotos/clubes/europa/premier-league/manchester-city"
+  },
+  {
+    "nome": "Liverpool",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "liverpool",
+    "base": "fotos/clubes/europa/premier-league/liverpool"
+  },
+  {
+    "nome": "Chelsea",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "chelsea",
+    "base": "fotos/clubes/europa/premier-league/chelsea"
+  },
+  {
+    "nome": "Arsenal",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "arsenal",
+    "base": "fotos/clubes/europa/premier-league/arsenal"
+  },
+  {
+    "nome": "Tottenham",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "tottenham",
+    "base": "fotos/clubes/europa/premier-league/tottenham"
+  },
+  {
+    "nome": "Newcastle United",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "newcastle-united",
+    "base": "fotos/clubes/europa/premier-league/newcastle-united"
+  },
+  {
+    "nome": "Aston Villa",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "aston-villa",
+    "base": "fotos/clubes/europa/premier-league/aston-villa"
+  },
+  {
+    "nome": "West Ham United",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "west-ham-united",
+    "base": "fotos/clubes/europa/premier-league/west-ham-united"
+  },
+  {
+    "nome": "Everton",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "everton",
+    "base": "fotos/clubes/europa/premier-league/everton"
+  },
+  {
+    "nome": "Leeds United",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "leeds-united",
+    "base": "fotos/clubes/europa/premier-league/leeds-united"
+  },
+  {
+    "nome": "Nottingham Forest",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "nottingham-forest",
+    "base": "fotos/clubes/europa/premier-league/nottingham-forest"
+  },
+  {
+    "nome": "Wolverhampton",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "wolverhampton",
+    "base": "fotos/clubes/europa/premier-league/wolverhampton"
+  },
+  {
+    "nome": "Leicester City",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "leicester-city",
+    "base": "fotos/clubes/europa/premier-league/leicester-city"
+  },
+  {
+    "nome": "Bayern de Munique",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "bayern-de-munique",
+    "base": "fotos/clubes/europa/bundesliga/bayern-de-munique"
+  },
+  {
+    "nome": "Borussia Dortmund",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "borussia-dortmund",
+    "base": "fotos/clubes/europa/bundesliga/borussia-dortmund"
+  },
+  {
+    "nome": "RB Leipzig",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "rb-leipzig",
+    "base": "fotos/clubes/europa/bundesliga/rb-leipzig"
+  },
+  {
+    "nome": "Bayer Leverkusen",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "bayer-leverkusen",
+    "base": "fotos/clubes/europa/bundesliga/bayer-leverkusen"
+  },
+  {
+    "nome": "Eintracht Frankfurt",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "eintracht-frankfurt",
+    "base": "fotos/clubes/europa/bundesliga/eintracht-frankfurt"
+  },
+  {
+    "nome": "Borussia Mönchengladbach",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "borussia-monchengladbach",
+    "base": "fotos/clubes/europa/bundesliga/borussia-monchengladbach"
+  },
+  {
+    "nome": "VfB Stuttgart",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "vfb-stuttgart",
+    "base": "fotos/clubes/europa/bundesliga/vfb-stuttgart"
+  },
+  {
+    "nome": "Schalke 04",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "schalke-04",
+    "base": "fotos/clubes/europa/bundesliga/schalke-04"
+  },
+  {
+    "nome": "Hamburger SV",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "hamburger-sv",
+    "base": "fotos/clubes/europa/bundesliga/hamburger-sv"
+  },
+  {
+    "nome": "Werder Bremen",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "werder-bremen",
+    "base": "fotos/clubes/europa/bundesliga/werder-bremen"
+  },
+  {
+    "nome": "VfL Wolfsburg",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "vfl-wolfsburg",
+    "base": "fotos/clubes/europa/bundesliga/vfl-wolfsburg"
+  },
+  {
+    "nome": "FC Köln",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "fc-koln",
+    "base": "fotos/clubes/europa/bundesliga/fc-koln"
+  },
+  {
+    "nome": "Hertha Berlin",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "hertha-berlin",
+    "base": "fotos/clubes/europa/bundesliga/hertha-berlin"
+  },
+  {
+    "nome": "Juventus",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "juventus",
+    "base": "fotos/clubes/europa/serie-a/juventus"
+  },
+  {
+    "nome": "AC Milan",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "ac-milan",
+    "base": "fotos/clubes/europa/serie-a/ac-milan"
+  },
+  {
+    "nome": "Inter de Milão",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "inter-de-milao",
+    "base": "fotos/clubes/europa/serie-a/inter-de-milao"
+  },
+  {
+    "nome": "Napoli",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "napoli",
+    "base": "fotos/clubes/europa/serie-a/napoli"
+  },
+  {
+    "nome": "AS Roma",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "as-roma",
+    "base": "fotos/clubes/europa/serie-a/as-roma"
+  },
+  {
+    "nome": "Lazio",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "lazio",
+    "base": "fotos/clubes/europa/serie-a/lazio"
+  },
+  {
+    "nome": "Fiorentina",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "fiorentina",
+    "base": "fotos/clubes/europa/serie-a/fiorentina"
+  },
+  {
+    "nome": "Atalanta",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "atalanta",
+    "base": "fotos/clubes/europa/serie-a/atalanta"
+  },
+  {
+    "nome": "Torino",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "torino",
+    "base": "fotos/clubes/europa/serie-a/torino"
+  },
+  {
+    "nome": "Bologna",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "bologna",
+    "base": "fotos/clubes/europa/serie-a/bologna"
+  },
+  {
+    "nome": "Genoa",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "genoa",
+    "base": "fotos/clubes/europa/serie-a/genoa"
+  },
+  {
+    "nome": "Sampdoria",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "sampdoria",
+    "base": "fotos/clubes/europa/serie-a/sampdoria"
+  },
+  {
+    "nome": "Parma",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "parma",
+    "base": "fotos/clubes/europa/serie-a/parma"
+  },
+  {
+    "nome": "Cagliari",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "cagliari",
+    "base": "fotos/clubes/europa/serie-a/cagliari"
+  },
+  {
+    "nome": "Paris Saint-Germain",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "paris-saint-germain",
+    "base": "fotos/clubes/europa/ligue-1/paris-saint-germain"
+  },
+  {
+    "nome": "Olympique de Marselha",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "olympique-de-marselha",
+    "base": "fotos/clubes/europa/ligue-1/olympique-de-marselha"
+  },
+  {
+    "nome": "Olympique de Lyon",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "olympique-de-lyon",
+    "base": "fotos/clubes/europa/ligue-1/olympique-de-lyon"
+  },
+  {
+    "nome": "AS Monaco",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "as-monaco",
+    "base": "fotos/clubes/europa/ligue-1/as-monaco"
+  },
+  {
+    "nome": "Lille",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "lille",
+    "base": "fotos/clubes/europa/ligue-1/lille"
+  },
+  {
+    "nome": "Saint-Étienne",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "saint-etienne",
+    "base": "fotos/clubes/europa/ligue-1/saint-etienne"
+  },
+  {
+    "nome": "Rennes",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "rennes",
+    "base": "fotos/clubes/europa/ligue-1/rennes"
+  },
+  {
+    "nome": "Nice",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "nice",
+    "base": "fotos/clubes/europa/ligue-1/nice"
+  },
+  {
+    "nome": "Nantes",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "nantes",
+    "base": "fotos/clubes/europa/ligue-1/nantes"
+  },
+  {
+    "nome": "Bordeaux",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "bordeaux",
+    "base": "fotos/clubes/europa/ligue-1/bordeaux"
+  },
+  {
+    "nome": "Lens",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "lens",
+    "base": "fotos/clubes/europa/ligue-1/lens"
+  },
+  {
+    "nome": "Strasbourg",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "strasbourg",
+    "base": "fotos/clubes/europa/ligue-1/strasbourg"
+  },
+  {
+    "nome": "Toulouse",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "toulouse",
+    "base": "fotos/clubes/europa/ligue-1/toulouse"
+  },
+  {
+    "nome": "Benfica",
+    "liga": "Liga Portugal",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-portugal",
+    "slug": "benfica",
+    "base": "fotos/clubes/europa/liga-portugal/benfica"
+  },
+  {
+    "nome": "Porto",
+    "liga": "Liga Portugal",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-portugal",
+    "slug": "porto",
+    "base": "fotos/clubes/europa/liga-portugal/porto"
+  },
+  {
+    "nome": "Sporting CP",
+    "liga": "Liga Portugal",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-portugal",
+    "slug": "sporting-cp",
+    "base": "fotos/clubes/europa/liga-portugal/sporting-cp"
+  },
+  {
+    "nome": "Braga",
+    "liga": "Liga Portugal",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-portugal",
+    "slug": "braga",
+    "base": "fotos/clubes/europa/liga-portugal/braga"
+  },
+  {
+    "nome": "Vitória de Guimarães",
+    "liga": "Liga Portugal",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-portugal",
+    "slug": "vitoria-de-guimaraes",
+    "base": "fotos/clubes/europa/liga-portugal/vitoria-de-guimaraes"
+  },
+  {
+    "nome": "Boavista",
+    "liga": "Liga Portugal",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-portugal",
+    "slug": "boavista",
+    "base": "fotos/clubes/europa/liga-portugal/boavista"
+  },
+  {
+    "nome": "Belenenses",
+    "liga": "Liga Portugal",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-portugal",
+    "slug": "belenenses",
+    "base": "fotos/clubes/europa/liga-portugal/belenenses"
+  },
+  {
+    "nome": "Marítimo",
+    "liga": "Liga Portugal",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-portugal",
+    "slug": "maritimo",
+    "base": "fotos/clubes/europa/liga-portugal/maritimo"
+  },
+  {
+    "nome": "Gil Vicente",
+    "liga": "Liga Portugal",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-portugal",
+    "slug": "gil-vicente",
+    "base": "fotos/clubes/europa/liga-portugal/gil-vicente"
+  },
+  {
+    "nome": "Rio Ave",
+    "liga": "Liga Portugal",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-portugal",
+    "slug": "rio-ave",
+    "base": "fotos/clubes/europa/liga-portugal/rio-ave"
+  },
+  {
+    "nome": "Estoril",
+    "liga": "Liga Portugal",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-portugal",
+    "slug": "estoril",
+    "base": "fotos/clubes/europa/liga-portugal/estoril"
+  },
+  {
+    "nome": "Famalicão",
+    "liga": "Liga Portugal",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-portugal",
+    "slug": "famalicao",
+    "base": "fotos/clubes/europa/liga-portugal/famalicao"
+  },
+  {
+    "nome": "Ajax",
+    "liga": "Eredivisie · Holanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "eredivisie",
+    "slug": "ajax",
+    "base": "fotos/clubes/europa/eredivisie/ajax"
+  },
+  {
+    "nome": "PSV Eindhoven",
+    "liga": "Eredivisie · Holanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "eredivisie",
+    "slug": "psv-eindhoven",
+    "base": "fotos/clubes/europa/eredivisie/psv-eindhoven"
+  },
+  {
+    "nome": "Feyenoord",
+    "liga": "Eredivisie · Holanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "eredivisie",
+    "slug": "feyenoord",
+    "base": "fotos/clubes/europa/eredivisie/feyenoord"
+  },
+  {
+    "nome": "AZ Alkmaar",
+    "liga": "Eredivisie · Holanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "eredivisie",
+    "slug": "az-alkmaar",
+    "base": "fotos/clubes/europa/eredivisie/az-alkmaar"
+  },
+  {
+    "nome": "FC Twente",
+    "liga": "Eredivisie · Holanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "eredivisie",
+    "slug": "fc-twente",
+    "base": "fotos/clubes/europa/eredivisie/fc-twente"
+  },
+  {
+    "nome": "FC Utrecht",
+    "liga": "Eredivisie · Holanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "eredivisie",
+    "slug": "fc-utrecht",
+    "base": "fotos/clubes/europa/eredivisie/fc-utrecht"
+  },
+  {
+    "nome": "Vitesse",
+    "liga": "Eredivisie · Holanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "eredivisie",
+    "slug": "vitesse",
+    "base": "fotos/clubes/europa/eredivisie/vitesse"
+  },
+  {
+    "nome": "Willem II",
+    "liga": "Eredivisie · Holanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "eredivisie",
+    "slug": "willem-ii",
+    "base": "fotos/clubes/europa/eredivisie/willem-ii"
+  },
+  {
+    "nome": "Heerenveen",
+    "liga": "Eredivisie · Holanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "eredivisie",
+    "slug": "heerenveen",
+    "base": "fotos/clubes/europa/eredivisie/heerenveen"
+  },
+  {
+    "nome": "NEC Nijmegen",
+    "liga": "Eredivisie · Holanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "eredivisie",
+    "slug": "nec-nijmegen",
+    "base": "fotos/clubes/europa/eredivisie/nec-nijmegen"
+  },
+  {
+    "nome": "FC Groningen",
+    "liga": "Eredivisie · Holanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "eredivisie",
+    "slug": "fc-groningen",
+    "base": "fotos/clubes/europa/eredivisie/fc-groningen"
+  },
+  {
+    "nome": "Sparta Rotterdam",
+    "liga": "Eredivisie · Holanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "eredivisie",
+    "slug": "sparta-rotterdam",
+    "base": "fotos/clubes/europa/eredivisie/sparta-rotterdam"
+  },
+  {
+    "nome": "Flamengo",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "flamengo",
+    "base": "fotos/clubes/america-do-sul/brasileirao/flamengo"
+  },
+  {
+    "nome": "Palmeiras",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "palmeiras",
+    "base": "fotos/clubes/america-do-sul/brasileirao/palmeiras"
+  },
+  {
+    "nome": "São Paulo",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "sao-paulo",
+    "base": "fotos/clubes/america-do-sul/brasileirao/sao-paulo"
+  },
+  {
+    "nome": "Corinthians",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "corinthians",
+    "base": "fotos/clubes/america-do-sul/brasileirao/corinthians"
+  },
+  {
+    "nome": "Grêmio",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "gremio",
+    "base": "fotos/clubes/america-do-sul/brasileirao/gremio"
+  },
+  {
+    "nome": "Internacional",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "internacional",
+    "base": "fotos/clubes/america-do-sul/brasileirao/internacional"
+  },
+  {
+    "nome": "Atlético Mineiro",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "atletico-mineiro",
+    "base": "fotos/clubes/america-do-sul/brasileirao/atletico-mineiro"
+  },
+  {
+    "nome": "Cruzeiro",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "cruzeiro",
+    "base": "fotos/clubes/america-do-sul/brasileirao/cruzeiro"
+  },
+  {
+    "nome": "Botafogo",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "botafogo",
+    "base": "fotos/clubes/america-do-sul/brasileirao/botafogo"
+  },
+  {
+    "nome": "Fluminense",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "fluminense",
+    "base": "fotos/clubes/america-do-sul/brasileirao/fluminense"
+  },
+  {
+    "nome": "Vasco da Gama",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "vasco-da-gama",
+    "base": "fotos/clubes/america-do-sul/brasileirao/vasco-da-gama"
+  },
+  {
+    "nome": "Bahia",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "bahia",
+    "base": "fotos/clubes/america-do-sul/brasileirao/bahia"
+  },
+  {
+    "nome": "Santos",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "santos",
+    "base": "fotos/clubes/america-do-sul/brasileirao/santos"
+  },
+  {
+    "nome": "Fortaleza",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "fortaleza",
+    "base": "fotos/clubes/america-do-sul/brasileirao/fortaleza"
+  },
+  {
+    "nome": "Sport Recife",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "sport-recife",
+    "base": "fotos/clubes/america-do-sul/brasileirao/sport-recife"
+  },
+  {
+    "nome": "Boca Juniors",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "boca-juniors",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/boca-juniors"
+  },
+  {
+    "nome": "River Plate",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "river-plate",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/river-plate"
+  },
+  {
+    "nome": "Racing Club",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "racing-club",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/racing-club"
+  },
+  {
+    "nome": "Independiente",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "independiente",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/independiente"
+  },
+  {
+    "nome": "San Lorenzo",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "san-lorenzo",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/san-lorenzo"
+  },
+  {
+    "nome": "Estudiantes de La Plata",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "estudiantes-de-la-plata",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/estudiantes-de-la-plata"
+  },
+  {
+    "nome": "Vélez Sarsfield",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "velez-sarsfield",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/velez-sarsfield"
+  },
+  {
+    "nome": "Newell's Old Boys",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "newells-old-boys",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/newells-old-boys"
+  },
+  {
+    "nome": "Rosario Central",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "rosario-central",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/rosario-central"
+  },
+  {
+    "nome": "Argentinos Juniors",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "argentinos-juniors",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/argentinos-juniors"
+  },
+  {
+    "nome": "Huracán",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "huracan",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/huracan"
+  },
+  {
+    "nome": "Talleres",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "talleres",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/talleres"
+  },
+  {
+    "nome": "Banfield",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "banfield",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/banfield"
+  },
+  {
+    "nome": "Inter Miami",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "inter-miami",
+    "base": "fotos/clubes/america-do-norte/mls/inter-miami"
+  },
+  {
+    "nome": "LA Galaxy",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "la-galaxy",
+    "base": "fotos/clubes/america-do-norte/mls/la-galaxy"
+  },
+  {
+    "nome": "LAFC",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "lafc",
+    "base": "fotos/clubes/america-do-norte/mls/lafc"
+  },
+  {
+    "nome": "Seattle Sounders",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "seattle-sounders",
+    "base": "fotos/clubes/america-do-norte/mls/seattle-sounders"
+  },
+  {
+    "nome": "Atlanta United",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "atlanta-united",
+    "base": "fotos/clubes/america-do-norte/mls/atlanta-united"
+  },
+  {
+    "nome": "New York City FC",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "new-york-city-fc",
+    "base": "fotos/clubes/america-do-norte/mls/new-york-city-fc"
+  },
+  {
+    "nome": "New York Red Bulls",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "new-york-red-bulls",
+    "base": "fotos/clubes/america-do-norte/mls/new-york-red-bulls"
+  },
+  {
+    "nome": "Portland Timbers",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "portland-timbers",
+    "base": "fotos/clubes/america-do-norte/mls/portland-timbers"
+  },
+  {
+    "nome": "Toronto FC",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "toronto-fc",
+    "base": "fotos/clubes/america-do-norte/mls/toronto-fc"
+  },
+  {
+    "nome": "Columbus Crew",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "columbus-crew",
+    "base": "fotos/clubes/america-do-norte/mls/columbus-crew"
+  },
+  {
+    "nome": "Orlando City",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "orlando-city",
+    "base": "fotos/clubes/america-do-norte/mls/orlando-city"
+  },
+  {
+    "nome": "Sporting Kansas City",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "sporting-kansas-city",
+    "base": "fotos/clubes/america-do-norte/mls/sporting-kansas-city"
+  },
+  {
+    "nome": "Peñarol",
+    "liga": "Liga Uruguaia",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-uruguaia",
+    "slug": "penarol",
+    "base": "fotos/clubes/america-do-sul/liga-uruguaia/penarol"
+  },
+  {
+    "nome": "Nacional",
+    "liga": "Liga Uruguaia",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-uruguaia",
+    "slug": "nacional",
+    "base": "fotos/clubes/america-do-sul/liga-uruguaia/nacional"
+  },
+  {
+    "nome": "Danubio",
+    "liga": "Liga Uruguaia",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-uruguaia",
+    "slug": "danubio",
+    "base": "fotos/clubes/america-do-sul/liga-uruguaia/danubio"
+  },
+  {
+    "nome": "Defensor Sporting",
+    "liga": "Liga Uruguaia",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-uruguaia",
+    "slug": "defensor-sporting",
+    "base": "fotos/clubes/america-do-sul/liga-uruguaia/defensor-sporting"
+  },
+  {
+    "nome": "Colo-Colo",
+    "liga": "Liga Chilena",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-chilena",
+    "slug": "colo-colo",
+    "base": "fotos/clubes/america-do-sul/liga-chilena/colo-colo"
+  },
+  {
+    "nome": "Universidad de Chile",
+    "liga": "Liga Chilena",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-chilena",
+    "slug": "universidad-de-chile",
+    "base": "fotos/clubes/america-do-sul/liga-chilena/universidad-de-chile"
+  },
+  {
+    "nome": "Universidad Católica",
+    "liga": "Liga Chilena",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-chilena",
+    "slug": "universidad-catolica",
+    "base": "fotos/clubes/america-do-sul/liga-chilena/universidad-catolica"
+  },
+  {
+    "nome": "Palestino",
+    "liga": "Liga Chilena",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-chilena",
+    "slug": "palestino",
+    "base": "fotos/clubes/america-do-sul/liga-chilena/palestino"
+  },
+  {
+    "nome": "Atlético Nacional",
+    "liga": "Liga Colombiana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-colombiana",
+    "slug": "atletico-nacional",
+    "base": "fotos/clubes/america-do-sul/liga-colombiana/atletico-nacional"
+  },
+  {
+    "nome": "Millonarios",
+    "liga": "Liga Colombiana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-colombiana",
+    "slug": "millonarios",
+    "base": "fotos/clubes/america-do-sul/liga-colombiana/millonarios"
+  },
+  {
+    "nome": "América de Cali",
+    "liga": "Liga Colombiana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-colombiana",
+    "slug": "america-de-cali",
+    "base": "fotos/clubes/america-do-sul/liga-colombiana/america-de-cali"
+  },
+  {
+    "nome": "Deportivo Cali",
+    "liga": "Liga Colombiana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-colombiana",
+    "slug": "deportivo-cali",
+    "base": "fotos/clubes/america-do-sul/liga-colombiana/deportivo-cali"
+  },
+  {
+    "nome": "Junior Barranquilla",
+    "liga": "Liga Colombiana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-colombiana",
+    "slug": "junior-barranquilla",
+    "base": "fotos/clubes/america-do-sul/liga-colombiana/junior-barranquilla"
+  },
+  {
+    "nome": "Olimpia",
+    "liga": "Liga Paraguaia",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-paraguaia",
+    "slug": "olimpia",
+    "base": "fotos/clubes/america-do-sul/liga-paraguaia/olimpia"
+  },
+  {
+    "nome": "Cerro Porteño",
+    "liga": "Liga Paraguaia",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-paraguaia",
+    "slug": "cerro-porteno",
+    "base": "fotos/clubes/america-do-sul/liga-paraguaia/cerro-porteno"
+  },
+  {
+    "nome": "Libertad",
+    "liga": "Liga Paraguaia",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-paraguaia",
+    "slug": "libertad",
+    "base": "fotos/clubes/america-do-sul/liga-paraguaia/libertad"
+  },
+  {
+    "nome": "Guaraní",
+    "liga": "Liga Paraguaia",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-paraguaia",
+    "slug": "guarani",
+    "base": "fotos/clubes/america-do-sul/liga-paraguaia/guarani"
+  },
+  {
+    "nome": "Barcelona SC",
+    "liga": "Liga Equatoriana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-equatoriana",
+    "slug": "barcelona-sc",
+    "base": "fotos/clubes/america-do-sul/liga-equatoriana/barcelona-sc"
+  },
+  {
+    "nome": "LDU Quito",
+    "liga": "Liga Equatoriana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-equatoriana",
+    "slug": "ldu-quito",
+    "base": "fotos/clubes/america-do-sul/liga-equatoriana/ldu-quito"
+  },
+  {
+    "nome": "Emelec",
+    "liga": "Liga Equatoriana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-equatoriana",
+    "slug": "emelec",
+    "base": "fotos/clubes/america-do-sul/liga-equatoriana/emelec"
+  },
+  {
+    "nome": "Independiente del Valle",
+    "liga": "Liga Equatoriana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-equatoriana",
+    "slug": "independiente-del-valle",
+    "base": "fotos/clubes/america-do-sul/liga-equatoriana/independiente-del-valle"
+  },
+  {
+    "nome": "Universitario",
+    "liga": "Liga Peruana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-peruana",
+    "slug": "universitario",
+    "base": "fotos/clubes/america-do-sul/liga-peruana/universitario"
+  },
+  {
+    "nome": "Alianza Lima",
+    "liga": "Liga Peruana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-peruana",
+    "slug": "alianza-lima",
+    "base": "fotos/clubes/america-do-sul/liga-peruana/alianza-lima"
+  },
+  {
+    "nome": "Sporting Cristal",
+    "liga": "Liga Peruana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-peruana",
+    "slug": "sporting-cristal",
+    "base": "fotos/clubes/america-do-sul/liga-peruana/sporting-cristal"
+  },
+  {
+    "nome": "Sport Boys",
+    "liga": "Liga Peruana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-peruana",
+    "slug": "sport-boys",
+    "base": "fotos/clubes/america-do-sul/liga-peruana/sport-boys"
+  },
+  {
+    "nome": "Bolívar",
+    "liga": "Liga Boliviana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-boliviana",
+    "slug": "bolivar",
+    "base": "fotos/clubes/america-do-sul/liga-boliviana/bolivar"
+  },
+  {
+    "nome": "The Strongest",
+    "liga": "Liga Boliviana",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-boliviana",
+    "slug": "the-strongest",
+    "base": "fotos/clubes/america-do-sul/liga-boliviana/the-strongest"
+  },
+  {
+    "nome": "Girona",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "girona",
+    "base": "fotos/clubes/europa/la-liga/girona"
+  },
+  {
+    "nome": "Levante UD",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "levante-ud",
+    "base": "fotos/clubes/europa/la-liga/levante-ud"
+  },
+  {
+    "nome": "Real Oviedo",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "real-oviedo",
+    "base": "fotos/clubes/europa/la-liga/real-oviedo"
+  },
+  {
+    "nome": "RC Lens",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "rc-lens",
+    "base": "fotos/clubes/europa/ligue-1/rc-lens"
+  },
+  {
+    "nome": "Los Angeles FC",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "los-angeles-fc",
+    "base": "fotos/clubes/america-do-norte/mls/los-angeles-fc"
+  },
+  {
+    "nome": "Málaga CF",
+    "liga": "Segunda Divisão · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "segunda-espanha",
+    "slug": "malaga-cf",
+    "base": "fotos/clubes/europa/segunda-espanha/malaga-cf"
+  },
+  {
+    "nome": "Córdoba CF",
+    "liga": "Segunda Divisão · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "segunda-espanha",
+    "slug": "cordoba-cf",
+    "base": "fotos/clubes/europa/segunda-espanha/cordoba-cf"
+  },
+  {
+    "nome": "Sporting Gijón",
+    "liga": "Segunda Divisão · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "segunda-espanha",
+    "slug": "sporting-gijon",
+    "base": "fotos/clubes/europa/segunda-espanha/sporting-gijon"
+  },
+  {
+    "nome": "Celtic",
+    "liga": "Premiership · Escócia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "escocia",
+    "slug": "celtic",
+    "base": "fotos/clubes/europa/escocia/celtic"
+  },
+  {
+    "nome": "Rangers FC",
+    "liga": "Premiership · Escócia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "escocia",
+    "slug": "rangers-fc",
+    "base": "fotos/clubes/europa/escocia/rangers-fc"
+  },
+  {
+    "nome": "Club León",
+    "liga": "Liga MX · México",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "liga-mx",
+    "slug": "club-leon",
+    "base": "fotos/clubes/america-do-norte/liga-mx/club-leon"
+  },
+  {
+    "nome": "Cruz Azul",
+    "liga": "Liga MX · México",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "liga-mx",
+    "slug": "cruz-azul",
+    "base": "fotos/clubes/america-do-norte/liga-mx/cruz-azul"
+  },
+  {
+    "nome": "Monterrey",
+    "liga": "Liga MX · México",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "liga-mx",
+    "slug": "monterrey",
+    "base": "fotos/clubes/america-do-norte/liga-mx/monterrey"
+  },
+  {
+    "nome": "Al-Nassr",
+    "liga": "Saudi Pro League · Arábia Saudita",
+    "raiz": "clubes",
+    "grupo": "Ásia",
+    "grupo_slug": "asia",
+    "liga_slug": "saudi-pro-league",
+    "slug": "al-nassr",
+    "base": "fotos/clubes/asia/saudi-pro-league/al-nassr"
+  },
+  {
+    "nome": "Venezuela",
+    "liga": "Seleção · FVF",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "venezuela",
+    "base": "fotos/selecoes/classicas-fora/venezuela"
+  },
+  {
+    "nome": "Náutico",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "nautico",
+    "base": "fotos/clubes/america-do-sul/brasileirao/nautico"
+  },
+  {
+    "nome": "Paysandu",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "paysandu",
+    "base": "fotos/clubes/america-do-sul/brasileirao/paysandu"
+  },
+  {
+    "nome": "Vitória",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "vitoria",
+    "base": "fotos/clubes/america-do-sul/brasileirao/vitoria"
+  },
+  {
+    "nome": "Remo",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "remo",
+    "base": "fotos/clubes/america-do-sul/brasileirao/remo"
+  },
+  {
+    "nome": "Toluca",
+    "liga": "Liga MX · México",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "liga-mx",
+    "slug": "toluca",
+    "base": "fotos/clubes/america-do-norte/liga-mx/toluca"
+  },
+  {
+    "nome": "Club América",
+    "liga": "Liga MX · México",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "liga-mx",
+    "slug": "club-america",
+    "base": "fotos/clubes/america-do-norte/liga-mx/club-america"
+  },
+  {
+    "nome": "Sheffield Wednesday",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "sheffield-wednesday",
+    "base": "fotos/clubes/europa/premier-league/sheffield-wednesday"
+  },
+  {
+    "nome": "Birmingham City",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "birmingham-city",
+    "base": "fotos/clubes/europa/premier-league/birmingham-city"
+  },
+  {
+    "nome": "Fulham",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "fulham",
+    "base": "fotos/clubes/europa/premier-league/fulham"
+  },
+  {
+    "nome": "Southampton",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "southampton",
+    "base": "fotos/clubes/europa/premier-league/southampton"
+  },
+  {
+    "nome": "Sunderland",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "sunderland",
+    "base": "fotos/clubes/europa/premier-league/sunderland"
+  },
+  {
+    "nome": "Coventry City",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "coventry-city",
+    "base": "fotos/clubes/europa/premier-league/coventry-city"
+  },
+  {
+    "nome": "Derby County",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "derby-county",
+    "base": "fotos/clubes/europa/premier-league/derby-county"
+  },
+  {
+    "nome": "Norwich City",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "norwich-city",
+    "base": "fotos/clubes/europa/premier-league/norwich-city"
+  },
+  {
+    "nome": "Watford",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "watford",
+    "base": "fotos/clubes/europa/premier-league/watford"
+  },
+  {
+    "nome": "Crystal Palace",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "crystal-palace",
+    "base": "fotos/clubes/europa/premier-league/crystal-palace"
+  },
+  {
+    "nome": "Aberdeen",
+    "liga": "Premiership · Escócia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "escocia",
+    "slug": "aberdeen",
+    "base": "fotos/clubes/europa/escocia/aberdeen"
+  },
+  {
+    "nome": "Cádiz",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "cadiz",
+    "base": "fotos/clubes/europa/la-liga/cadiz"
+  },
+  {
+    "nome": "CD Tenerife",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "cd-tenerife",
+    "base": "fotos/clubes/europa/la-liga/cd-tenerife"
+  },
+  {
+    "nome": "Deportivo Alavés",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "deportivo-alaves",
+    "base": "fotos/clubes/europa/la-liga/deportivo-alaves"
+  },
+  {
+    "nome": "Rayo Vallecano",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "rayo-vallecano",
+    "base": "fotos/clubes/europa/la-liga/rayo-vallecano"
+  },
+  {
+    "nome": "Mallorca",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "mallorca",
+    "base": "fotos/clubes/europa/la-liga/mallorca"
+  },
+  {
+    "nome": "Real Valladolid",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "real-valladolid",
+    "base": "fotos/clubes/europa/la-liga/real-valladolid"
+  },
+  {
+    "nome": "UD Las Palmas",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "ud-las-palmas",
+    "base": "fotos/clubes/europa/la-liga/ud-las-palmas"
+  },
+  {
+    "nome": "Granada",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "granada",
+    "base": "fotos/clubes/europa/la-liga/granada"
+  },
+  {
+    "nome": "Getafe",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "getafe",
+    "base": "fotos/clubes/europa/la-liga/getafe"
+  },
+  {
+    "nome": "Hércules",
+    "liga": "La Liga · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "la-liga",
+    "slug": "hercules",
+    "base": "fotos/clubes/europa/la-liga/hercules"
+  },
+  {
+    "nome": "St. Pauli",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "st-pauli",
+    "base": "fotos/clubes/europa/bundesliga/st-pauli"
+  },
+  {
+    "nome": "Fortuna Düsseldorf",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "fortuna-dusseldorf",
+    "base": "fotos/clubes/europa/bundesliga/fortuna-dusseldorf"
+  },
+  {
+    "nome": "Kaiserslautern",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "kaiserslautern",
+    "base": "fotos/clubes/europa/bundesliga/kaiserslautern"
+  },
+  {
+    "nome": "Karlsruher",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "karlsruher",
+    "base": "fotos/clubes/europa/bundesliga/karlsruher"
+  },
+  {
+    "nome": "Hannover 96",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "hannover-96",
+    "base": "fotos/clubes/europa/bundesliga/hannover-96"
+  },
+  {
+    "nome": "Padova",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "padova",
+    "base": "fotos/clubes/europa/serie-a/padova"
+  },
+  {
+    "nome": "Perugia",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "perugia",
+    "base": "fotos/clubes/europa/serie-a/perugia"
+  },
+  {
+    "nome": "Udinese",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "udinese",
+    "base": "fotos/clubes/europa/serie-a/udinese"
+  },
+  {
+    "nome": "Venezia",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "venezia",
+    "base": "fotos/clubes/europa/serie-a/venezia"
+  },
+  {
+    "nome": "Cremonese",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "cremonese",
+    "base": "fotos/clubes/europa/serie-a/cremonese"
+  },
+  {
+    "nome": "Cannes",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "cannes",
+    "base": "fotos/clubes/europa/ligue-1/cannes"
+  },
+  {
+    "nome": "Fenerbahçe",
+    "liga": "Süper Lig · Turquia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "turquia",
+    "slug": "fenerbahce",
+    "base": "fotos/clubes/europa/turquia/fenerbahce"
+  },
+  {
+    "nome": "Galatasaray",
+    "liga": "Süper Lig · Turquia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "turquia",
+    "slug": "galatasaray",
+    "base": "fotos/clubes/europa/turquia/galatasaray"
+  },
+  {
+    "nome": "Beşiktaş",
+    "liga": "Süper Lig · Turquia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "turquia",
+    "slug": "besiktas",
+    "base": "fotos/clubes/europa/turquia/besiktas"
+  },
+  {
+    "nome": "AEK Atenas",
+    "liga": "Super League · Grécia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "grecia",
+    "slug": "aek-atenas",
+    "base": "fotos/clubes/europa/grecia/aek-atenas"
+  },
+  {
+    "nome": "Panathinaikos",
+    "liga": "Super League · Grécia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "grecia",
+    "slug": "panathinaikos",
+    "base": "fotos/clubes/europa/grecia/panathinaikos"
+  },
+  {
+    "nome": "Brøndby",
+    "liga": "Superliga · Dinamarca",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "dinamarca",
+    "slug": "brondby",
+    "base": "fotos/clubes/europa/dinamarca/brondby"
+  },
+  {
+    "nome": "Club Brugge",
+    "liga": "Pro League · Bélgica",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "belgica",
+    "slug": "club-brugge",
+    "base": "fotos/clubes/europa/belgica/club-brugge"
+  },
+  {
+    "nome": "Estrela Vermelha",
+    "liga": "SuperLiga · Sérvia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "servia",
+    "slug": "estrela-vermelha",
+    "base": "fotos/clubes/europa/servia/estrela-vermelha"
+  },
+  {
+    "nome": "Chivas Guadalajara",
+    "liga": "Liga MX · México",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "liga-mx",
+    "slug": "chivas-guadalajara",
+    "base": "fotos/clubes/america-do-norte/liga-mx/chivas-guadalajara"
+  },
+  {
+    "nome": "Tigres UANL",
+    "liga": "Liga MX · México",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "liga-mx",
+    "slug": "tigres-uanl",
+    "base": "fotos/clubes/america-do-norte/liga-mx/tigres-uanl"
+  },
+  {
+    "nome": "Coritiba",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "coritiba",
+    "base": "fotos/clubes/america-do-sul/brasileirao/coritiba"
+  },
+  {
+    "nome": "Athletico Paranaense",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "athletico-paranaense",
+    "base": "fotos/clubes/america-do-sul/brasileirao/athletico-paranaense"
+  },
+  {
+    "nome": "União Soviética",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "uniao-sovietica",
+    "base": "fotos/selecoes/classicas-fora/uniao-sovietica"
+  },
+  {
+    "nome": "Iugoslávia",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "iugoslavia",
+    "base": "fotos/selecoes/classicas-fora/iugoslavia"
+  },
+  {
+    "nome": "Tchecoslováquia",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "tchecoslovaquia",
+    "base": "fotos/selecoes/classicas-fora/tchecoslovaquia"
+  },
+  {
+    "nome": "Bulgária",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "bulgaria",
+    "base": "fotos/selecoes/classicas-fora/bulgaria"
+  },
+  {
+    "nome": "Irlanda",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Clássicas fora",
+    "grupo_slug": "classicas-fora",
+    "liga_slug": null,
+    "slug": "irlanda",
+    "base": "fotos/selecoes/classicas-fora/irlanda"
+  },
+  {
+    "nome": "Guatemala",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "guatemala",
+    "base": "fotos/selecoes/outras-selecoes/guatemala"
+  },
+  {
+    "nome": "Honduras",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "honduras",
+    "base": "fotos/selecoes/outras-selecoes/honduras"
+  },
+  {
+    "nome": "Jamaica",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "jamaica",
+    "base": "fotos/selecoes/outras-selecoes/jamaica"
+  },
+  {
+    "nome": "Albânia",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "albania",
+    "base": "fotos/selecoes/outras-selecoes/albania"
+  },
+  {
+    "nome": "El Salvador",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "el-salvador",
+    "base": "fotos/selecoes/outras-selecoes/el-salvador"
+  },
+  {
+    "nome": "Bolívia",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "bolivia",
+    "base": "fotos/selecoes/outras-selecoes/bolivia"
+  },
+  {
+    "nome": "Eslovênia",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "eslovenia",
+    "base": "fotos/selecoes/outras-selecoes/eslovenia"
+  },
+  {
+    "nome": "Finlândia",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "finlandia",
+    "base": "fotos/selecoes/outras-selecoes/finlandia"
+  },
+  {
+    "nome": "Guiné Equatorial",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "guine-equatorial",
+    "base": "fotos/selecoes/outras-selecoes/guine-equatorial"
+  },
+  {
+    "nome": "Hungria",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "hungria",
+    "base": "fotos/selecoes/outras-selecoes/hungria"
+  },
+  {
+    "nome": "Indonésia",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "indonesia",
+    "base": "fotos/selecoes/outras-selecoes/indonesia"
+  },
+  {
+    "nome": "Israel",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "israel",
+    "base": "fotos/selecoes/outras-selecoes/israel"
+  },
+  {
+    "nome": "Mali",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "mali",
+    "base": "fotos/selecoes/outras-selecoes/mali"
+  },
+  {
+    "nome": "País de Gales",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "pais-de-gales",
+    "base": "fotos/selecoes/outras-selecoes/pais-de-gales"
+  },
+  {
+    "nome": "Filipinas",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "filipinas",
+    "base": "fotos/selecoes/outras-selecoes/filipinas"
+  },
+  {
+    "nome": "Grécia",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "grecia",
+    "base": "fotos/selecoes/outras-selecoes/grecia"
+  },
+  {
+    "nome": "Islândia",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "islandia",
+    "base": "fotos/selecoes/outras-selecoes/islandia"
+  },
+  {
+    "nome": "Malásia",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "malasia",
+    "base": "fotos/selecoes/outras-selecoes/malasia"
+  },
+  {
+    "nome": "Romênia",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "romenia",
+    "base": "fotos/selecoes/outras-selecoes/romenia"
+  },
+  {
+    "nome": "Emirados Árabes Unidos",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "emirados-arabes-unidos",
+    "base": "fotos/selecoes/outras-selecoes/emirados-arabes-unidos"
+  },
+  {
+    "nome": "Irlanda do Norte",
+    "liga": "Seleção",
+    "raiz": "selecoes",
+    "grupo": "Outras seleções",
+    "grupo_slug": "outras-selecoes",
+    "liga_slug": null,
+    "slug": "irlanda-do-norte",
+    "base": "fotos/selecoes/outras-selecoes/irlanda-do-norte"
+  },
+  {
+    "nome": "Albacete",
+    "liga": "Segunda Divisão · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "segunda-espanha",
+    "slug": "albacete",
+    "base": "fotos/clubes/europa/segunda-espanha/albacete"
+  },
+  {
+    "nome": "Burgos CF",
+    "liga": "Segunda Divisão · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "segunda-espanha",
+    "slug": "burgos-cf",
+    "base": "fotos/clubes/europa/segunda-espanha/burgos-cf"
+  },
+  {
+    "nome": "CD Castellón",
+    "liga": "Segunda Divisão · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "segunda-espanha",
+    "slug": "cd-castellon",
+    "base": "fotos/clubes/europa/segunda-espanha/cd-castellon"
+  },
+  {
+    "nome": "Elche",
+    "liga": "Segunda Divisão · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "segunda-espanha",
+    "slug": "elche",
+    "base": "fotos/clubes/europa/segunda-espanha/elche"
+  },
+  {
+    "nome": "Leganés",
+    "liga": "Segunda Divisão · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "segunda-espanha",
+    "slug": "leganes",
+    "base": "fotos/clubes/europa/segunda-espanha/leganes"
+  },
+  {
+    "nome": "Real Murcia",
+    "liga": "Segunda Divisão · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "segunda-espanha",
+    "slug": "real-murcia",
+    "base": "fotos/clubes/europa/segunda-espanha/real-murcia"
+  },
+  {
+    "nome": "Recreativo de Huelva",
+    "liga": "Segunda Divisão · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "segunda-espanha",
+    "slug": "recreativo-de-huelva",
+    "base": "fotos/clubes/europa/segunda-espanha/recreativo-de-huelva"
+  },
+  {
+    "nome": "SD Eibar",
+    "liga": "Segunda Divisão · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "segunda-espanha",
+    "slug": "sd-eibar",
+    "base": "fotos/clubes/europa/segunda-espanha/sd-eibar"
+  },
+  {
+    "nome": "UD Almería",
+    "liga": "Segunda Divisão · Espanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "segunda-espanha",
+    "slug": "ud-almeria",
+    "base": "fotos/clubes/europa/segunda-espanha/ud-almeria"
+  },
+  {
+    "nome": "Ceará",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "ceara",
+    "base": "fotos/clubes/america-do-sul/brasileirao/ceara"
+  },
+  {
+    "nome": "Chapecoense",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "chapecoense",
+    "base": "fotos/clubes/america-do-sul/brasileirao/chapecoense"
+  },
+  {
+    "nome": "Figueirense",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "figueirense",
+    "base": "fotos/clubes/america-do-sul/brasileirao/figueirense"
+  },
+  {
+    "nome": "Red Bull Bragantino",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "red-bull-bragantino",
+    "base": "fotos/clubes/america-do-sul/brasileirao/red-bull-bragantino"
+  },
+  {
+    "nome": "Santa Cruz",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "santa-cruz",
+    "base": "fotos/clubes/america-do-sul/brasileirao/santa-cruz"
+  },
+  {
+    "nome": "Botafogo-PB",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "botafogo-pb",
+    "base": "fotos/clubes/america-do-sul/brasileirao/botafogo-pb"
+  },
+  {
+    "nome": "Botafogo-SP",
+    "liga": "Brasileirão",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "brasileirao",
+    "slug": "botafogo-sp",
+    "base": "fotos/clubes/america-do-sul/brasileirao/botafogo-sp"
+  },
+  {
+    "nome": "AFC Bournemouth",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "afc-bournemouth",
+    "base": "fotos/clubes/europa/premier-league/afc-bournemouth"
+  },
+  {
+    "nome": "AFC Richmond",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "afc-richmond",
+    "base": "fotos/clubes/europa/premier-league/afc-richmond"
+  },
+  {
+    "nome": "Blackburn Rovers",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "blackburn-rovers",
+    "base": "fotos/clubes/europa/premier-league/blackburn-rovers"
+  },
+  {
+    "nome": "Bolton Wanderers",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "bolton-wanderers",
+    "base": "fotos/clubes/europa/premier-league/bolton-wanderers"
+  },
+  {
+    "nome": "Bradford City",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "bradford-city",
+    "base": "fotos/clubes/europa/premier-league/bradford-city"
+  },
+  {
+    "nome": "Brentford",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "brentford",
+    "base": "fotos/clubes/europa/premier-league/brentford"
+  },
+  {
+    "nome": "Brighton",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "brighton",
+    "base": "fotos/clubes/europa/premier-league/brighton"
+  },
+  {
+    "nome": "Burnley",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "burnley",
+    "base": "fotos/clubes/europa/premier-league/burnley"
+  },
+  {
+    "nome": "Cardiff City",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "cardiff-city",
+    "base": "fotos/clubes/europa/premier-league/cardiff-city"
+  },
+  {
+    "nome": "Doncaster Rovers",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "doncaster-rovers",
+    "base": "fotos/clubes/europa/premier-league/doncaster-rovers"
+  },
+  {
+    "nome": "Hull City",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "hull-city",
+    "base": "fotos/clubes/europa/premier-league/hull-city"
+  },
+  {
+    "nome": "Ipswich Town",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "ipswich-town",
+    "base": "fotos/clubes/europa/premier-league/ipswich-town"
+  },
+  {
+    "nome": "Lincoln City",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "lincoln-city",
+    "base": "fotos/clubes/europa/premier-league/lincoln-city"
+  },
+  {
+    "nome": "Middlesbrough",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "middlesbrough",
+    "base": "fotos/clubes/europa/premier-league/middlesbrough"
+  },
+  {
+    "nome": "Millwall",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "millwall",
+    "base": "fotos/clubes/europa/premier-league/millwall"
+  },
+  {
+    "nome": "Plymouth Argyle",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "plymouth-argyle",
+    "base": "fotos/clubes/europa/premier-league/plymouth-argyle"
+  },
+  {
+    "nome": "Portsmouth",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "portsmouth",
+    "base": "fotos/clubes/europa/premier-league/portsmouth"
+  },
+  {
+    "nome": "Preston North End",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "preston-north-end",
+    "base": "fotos/clubes/europa/premier-league/preston-north-end"
+  },
+  {
+    "nome": "Queens Park Rangers",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "queens-park-rangers",
+    "base": "fotos/clubes/europa/premier-league/queens-park-rangers"
+  },
+  {
+    "nome": "Sheffield United",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "sheffield-united",
+    "base": "fotos/clubes/europa/premier-league/sheffield-united"
+  },
+  {
+    "nome": "West Bromwich",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "west-bromwich",
+    "base": "fotos/clubes/europa/premier-league/west-bromwich"
+  },
+  {
+    "nome": "Wrexham",
+    "liga": "Premier League · Inglaterra",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premier-league",
+    "slug": "wrexham",
+    "base": "fotos/clubes/europa/premier-league/wrexham"
+  },
+  {
+    "nome": "Como",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "como",
+    "base": "fotos/clubes/europa/serie-a/como"
+  },
+  {
+    "nome": "Palermo",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "palermo",
+    "base": "fotos/clubes/europa/serie-a/palermo"
+  },
+  {
+    "nome": "Ravenna",
+    "liga": "Serie A · Itália",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "serie-a",
+    "slug": "ravenna",
+    "base": "fotos/clubes/europa/serie-a/ravenna"
+  },
+  {
+    "nome": "Nuremberg",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "nuremberg",
+    "base": "fotos/clubes/europa/bundesliga/nuremberg"
+  },
+  {
+    "nome": "Rot-Weiss Essen",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "rot-weiss-essen",
+    "base": "fotos/clubes/europa/bundesliga/rot-weiss-essen"
+  },
+  {
+    "nome": "Union Berlin",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "union-berlin",
+    "base": "fotos/clubes/europa/bundesliga/union-berlin"
+  },
+  {
+    "nome": "VfL Bochum",
+    "liga": "Bundesliga · Alemanha",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "bundesliga",
+    "slug": "vfl-bochum",
+    "base": "fotos/clubes/europa/bundesliga/vfl-bochum"
+  },
+  {
+    "nome": "Paris FC",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "paris-fc",
+    "base": "fotos/clubes/europa/ligue-1/paris-fc"
+  },
+  {
+    "nome": "Versailles",
+    "liga": "Ligue 1 · França",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ligue-1",
+    "slug": "versailles",
+    "base": "fotos/clubes/europa/ligue-1/versailles"
+  },
+  {
+    "nome": "Almirante Brown",
+    "liga": "Liga Argentina",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-argentina",
+    "slug": "almirante-brown",
+    "base": "fotos/clubes/america-do-sul/liga-argentina/almirante-brown"
+  },
+  {
+    "nome": "Orlando Pirates",
+    "liga": "Premier Soccer League · África do Sul",
+    "raiz": "clubes",
+    "grupo": "África",
+    "grupo_slug": "africa",
+    "liga_slug": "psl-africa-do-sul",
+    "slug": "orlando-pirates",
+    "base": "fotos/clubes/africa/orlando-pirates"
+  },
+  {
+    "nome": "AIK",
+    "liga": "Allsvenskan · Suécia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "allsvenskan",
+    "slug": "aik",
+    "base": "fotos/clubes/europa/allsvenskan/aik"
+  },
+  {
+    "nome": "Al Ahly",
+    "liga": "Premier League · Egito",
+    "raiz": "clubes",
+    "grupo": "África",
+    "grupo_slug": "africa",
+    "liga_slug": "egito",
+    "slug": "al-ahly",
+    "base": "fotos/clubes/africa/egito/al-ahly"
+  },
+  {
+    "nome": "Al-Hilal",
+    "liga": "Liga Saudita",
+    "raiz": "clubes",
+    "grupo": "Ásia",
+    "grupo_slug": "asia",
+    "liga_slug": "liga-saudita",
+    "slug": "al-hilal",
+    "base": "fotos/clubes/asia/liga-saudita/al-hilal"
+  },
+  {
+    "nome": "Atlas",
+    "liga": "Liga MX · México",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "liga-mx",
+    "slug": "atlas",
+    "base": "fotos/clubes/america-do-norte/liga-mx/atlas"
+  },
+  {
+    "nome": "Bohemians",
+    "liga": "Liga da Irlanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-irlanda",
+    "slug": "bohemians",
+    "base": "fotos/clubes/europa/liga-irlanda/bohemians"
+  },
+  {
+    "nome": "Cerezo Osaka",
+    "liga": "J-League · Japão",
+    "raiz": "clubes",
+    "grupo": "Ásia",
+    "grupo_slug": "asia",
+    "liga_slug": "j-league",
+    "slug": "cerezo-osaka",
+    "base": "fotos/clubes/asia/j-league/cerezo-osaka"
+  },
+  {
+    "nome": "CF Montréal",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "cf-montreal",
+    "base": "fotos/clubes/america-do-norte/mls/cf-montreal"
+  },
+  {
+    "nome": "Charlotte FC",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "charlotte-fc",
+    "base": "fotos/clubes/america-do-norte/mls/charlotte-fc"
+  },
+  {
+    "nome": "Club Tijuana",
+    "liga": "Liga MX · México",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "liga-mx",
+    "slug": "club-tijuana",
+    "base": "fotos/clubes/america-do-norte/liga-mx/club-tijuana"
+  },
+  {
+    "nome": "Derry City",
+    "liga": "Liga da Irlanda",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-irlanda",
+    "slug": "derry-city",
+    "base": "fotos/clubes/europa/liga-irlanda/derry-city"
+  },
+  {
+    "nome": "Dinamo Bucareste",
+    "liga": "Liga I · Romênia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "liga-i",
+    "slug": "dinamo-bucareste",
+    "base": "fotos/clubes/europa/liga-i/dinamo-bucareste"
+  },
+  {
+    "nome": "Dinamo Zagreb",
+    "liga": "HNL · Croácia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "hnl",
+    "slug": "dinamo-zagreb",
+    "base": "fotos/clubes/europa/hnl/dinamo-zagreb"
+  },
+  {
+    "nome": "Dundee United",
+    "liga": "Premiership · Escócia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premiership-escocia",
+    "slug": "dundee-united",
+    "base": "fotos/clubes/europa/premiership-escocia/dundee-united"
+  },
+  {
+    "nome": "FC Copenhagen",
+    "liga": "Superliga · Dinamarca",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "superliga-dinamarca",
+    "slug": "fc-copenhagen",
+    "base": "fotos/clubes/europa/superliga-dinamarca/fc-copenhagen"
+  },
+  {
+    "nome": "FC Tokyo",
+    "liga": "J-League · Japão",
+    "raiz": "clubes",
+    "grupo": "Ásia",
+    "grupo_slug": "asia",
+    "liga_slug": "j-league",
+    "slug": "fc-tokyo",
+    "base": "fotos/clubes/asia/j-league/fc-tokyo"
+  },
+  {
+    "nome": "Hearts",
+    "liga": "Premiership · Escócia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "premiership-escocia",
+    "slug": "hearts",
+    "base": "fotos/clubes/europa/premiership-escocia/hearts"
+  },
+  {
+    "nome": "Kyoto Sanga",
+    "liga": "J-League · Japão",
+    "raiz": "clubes",
+    "grupo": "Ásia",
+    "grupo_slug": "asia",
+    "liga_slug": "j-league",
+    "slug": "kyoto-sanga",
+    "base": "fotos/clubes/asia/j-league/kyoto-sanga"
+  },
+  {
+    "nome": "Legia Warsaw",
+    "liga": "Ekstraklasa · Polônia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "ekstraklasa",
+    "slug": "legia-warsaw",
+    "base": "fotos/clubes/europa/ekstraklasa/legia-warsaw"
+  },
+  {
+    "nome": "Montevideo City Torque",
+    "liga": "Liga Uruguaia",
+    "raiz": "clubes",
+    "grupo": "América do Sul",
+    "grupo_slug": "america-do-sul",
+    "liga_slug": "liga-uruguaia",
+    "slug": "montevideo-city-torque",
+    "base": "fotos/clubes/america-do-sul/liga-uruguaia/montevideo-city-torque"
+  },
+  {
+    "nome": "Nagoya Grampus",
+    "liga": "J-League · Japão",
+    "raiz": "clubes",
+    "grupo": "Ásia",
+    "grupo_slug": "asia",
+    "liga_slug": "j-league",
+    "slug": "nagoya-grampus",
+    "base": "fotos/clubes/asia/j-league/nagoya-grampus"
+  },
+  {
+    "nome": "Olympiacos",
+    "liga": "Super League · Grécia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "super-league-grecia",
+    "slug": "olympiacos",
+    "base": "fotos/clubes/europa/super-league-grecia/olympiacos"
+  },
+  {
+    "nome": "Pumas UNAM",
+    "liga": "Liga MX · México",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "liga-mx",
+    "slug": "pumas-unam",
+    "base": "fotos/clubes/america-do-norte/liga-mx/pumas-unam"
+  },
+  {
+    "nome": "Rosenborg",
+    "liga": "Eliteserien · Noruega",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "eliteserien",
+    "slug": "rosenborg",
+    "base": "fotos/clubes/europa/eliteserien/rosenborg"
+  },
+  {
+    "nome": "Anderlecht",
+    "liga": "Pro League · Bélgica",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "pro-league",
+    "slug": "anderlecht",
+    "base": "fotos/clubes/europa/pro-league/anderlecht"
+  },
+  {
+    "nome": "San Diego FC",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "san-diego-fc",
+    "base": "fotos/clubes/america-do-norte/mls/san-diego-fc"
+  },
+  {
+    "nome": "St. Louis City",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "st-louis-city",
+    "base": "fotos/clubes/america-do-norte/mls/st-louis-city"
+  },
+  {
+    "nome": "Trabzonspor",
+    "liga": "Süper Lig · Turquia",
+    "raiz": "clubes",
+    "grupo": "Europa",
+    "grupo_slug": "europa",
+    "liga_slug": "super-lig",
+    "slug": "trabzonspor",
+    "base": "fotos/clubes/europa/super-lig/trabzonspor"
+  },
+  {
+    "nome": "Urawa Red Diamonds",
+    "liga": "J-League · Japão",
+    "raiz": "clubes",
+    "grupo": "Ásia",
+    "grupo_slug": "asia",
+    "liga_slug": "j-league",
+    "slug": "urawa-red-diamonds",
+    "base": "fotos/clubes/asia/j-league/urawa-red-diamonds"
+  },
+  {
+    "nome": "Vancouver Whitecaps",
+    "liga": "MLS · Estados Unidos",
+    "raiz": "clubes",
+    "grupo": "América do Norte",
+    "grupo_slug": "america-do-norte",
+    "liga_slug": "mls",
+    "slug": "vancouver-whitecaps",
+    "base": "fotos/clubes/america-do-norte/mls/vancouver-whitecaps"
+  }
+]
